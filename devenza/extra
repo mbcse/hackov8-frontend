@@ -1,0 +1,33 @@
+<div class="row">
+            <div class="col-6">
+                <div class="row a" style="opacity: 0;">
+                    <h1>SignUp/Logi</h1>
+                </div>
+                <div class="a">
+                    <h1>Explore Hackathons</h1>
+                </div>
+                <div class="a" style="opacity: 0;">
+                    <h1>SignUp/Logi</h1>
+                </div>
+                <div class="b">
+                    <h1>Compete</h1>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="b">
+                    <h1>SignUp/Login</h1>
+                </div>
+                <div class="a" style="opacity: 0;">
+                    <h1>SignUp/Login</h1>
+                </div>
+                <div class="a">
+                    <h1>Register in Hackathons</h1>
+                </div>
+                <div class="a" style="opacity: 0;">
+                    <h1>SignUp/Logi</h1>
+                </div>
+                <div class="b">
+                    <h1>Win</h1>
+                </div>
+            </div>
+        </div>
