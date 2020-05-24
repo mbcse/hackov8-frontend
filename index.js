@@ -1,33 +1,28 @@
-jQuery(function($) {
-    $(window).on('scroll', function() {
-		if ($(this).scrollTop() >= 200) {
-			$('.navbar').addClass('fixed-top');
-		} else if ($(this).scrollTop() == 0) {
-			$('.navbar').removeClass('fixed-top');
-		}
-	});
+var slideIndex = 1;
+showSlides(slideIndex);
 
-	function adjustNav() {
-		var winWidth = $(window).width(),
-			dropdown = $('.dropdown'),
-			dropdownMenu = $('.dropdown-menu');
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-		if (winWidth >= 768) {
-			dropdown.on('mouseenter', function() {
-				$(this).addClass('show')
-					.children(dropdownMenu).addClass('show');
-			});
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-			dropdown.on('mouseleave', function() {
-				$(this).removeClass('show')
-					.children(dropdownMenu).removeClass('show');
-			});
-		} else {
-			dropdown.off('mouseenter mouseleave');
-		}
-	}
-
-	$(window).on('resize', adjustNav);
-
-	adjustNav();
-});
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
