@@ -14,7 +14,7 @@ the best User experience both for students as well as organizers!
   - Profile section(With all the necessary Details, also having wiining hackathons details)
   - Projects Section
   - Dedicated easy to use Dashboard
-- #### Organizers Dashboard
+- #### Organizers Dashboard:
  - Add HAckathons
  - Update Hackathons section
  - A Dedicated Dashboard showing paticipants list(Like name, email, mentor Joining link,etc)
