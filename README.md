@@ -1,5 +1,6 @@
 <img src="https://github.com/scriptfoundation/devenza/blob/master/logo.jpeg" width="200">
 ## About
+
 This project is about making a platform where hackathons, events can be organized and hosted. The Aim is to make a platform which has
 the best User experience both for students as well as organizers!
 
