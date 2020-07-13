@@ -42,6 +42,6 @@ the best User experience both for students as well as organizers!
 - Add Proper Comments and focus on Clean Code, in practice.
 - Also reference the Issue in your PR so that it becomes easy for us to review.
 
-***There will be issues created for each module and you have to work on it Accordingly as soon as possible **
+**There will be issues created for each module and you have to work on it Accordingly as soon as possible**
 
 
