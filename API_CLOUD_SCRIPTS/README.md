@@ -36,4 +36,12 @@ the best User experience both for students as well as organizers!
 - BackEnd=> Mohit bhat
 - UI/UX=> Utkarsh
 
+# Please follow the general guidelines:
+- Make a Branch off your Master and work on that.
+- Make a proper README with your name and part of project you are doing, explaining how things are configured and working .
+- Add Proper Comments and focus on Clean Code, in practice.
+- Also reference the Issue in your PR so that it becomes easy for us to review.
+
+***There will be issues created for each module and you have to work on it Accordingly as soon as possible **
+
 
