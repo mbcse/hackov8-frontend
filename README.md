@@ -1,4 +1,3 @@
-# HACK-ov
 <img src="https://github.com/scriptfoundation/devenza/blob/master/logo.jpeg" width="200">
 ## About
 This project is about making a platform where hackathons, events can be organized and hosted. The Aim is to make a platform which has
@@ -15,12 +14,12 @@ the best User experience both for students as well as organizers!
   - Projects Section
   - Dedicated easy to use Dashboard
 - #### Organizers Dashboard:
- - Add HAckathons
- - Update Hackathons section
- - A Dedicated Dashboard showing paticipants list(Like name, email, mentor Joining link,etc)
- - A website like registration page so that the organisers don't have to build a separate one
- - Addon Questions Feature
- - An app to get basic details of the hackathon hosted(like participants, checkin,etc)
+  - Add HAckathons
+  - Update Hackathons section
+  - A Dedicated Dashboard showing paticipants list(Like name, email, mentor Joining link,etc)
+  - A website like registration page so that the organisers don't have to build a separate one
+  - Addon Questions Feature
+  - An app to get basic details of the hackathon hosted(like participants, checkin,etc)
 
 # Tech Stack Used
 - Html
