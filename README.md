@@ -32,9 +32,10 @@ the best User experience both for students as well as organizers!
 - Cloud
 
 # Team
-- FrontEnd=> Praveen Kumar, Adarsh and Hitesh Kumar 
-- BackEnd=> Mohit bhat
-- UI/UX=> Utkarsh
+- FrontEnd => Praveen Kumar, Priti Rai, Garima Singh, Ayushi, Aditya Kumar Singh, Utkarsh Agarwal
+- BackEnd => Mohit Bhat
+- UI/UX => Utkarsh Udit
+- Overall => Jai Sadana, Nitesh Nagpal
 
 # Please follow the general guidelines:
 - Make a Branch off your Master and work on that.
