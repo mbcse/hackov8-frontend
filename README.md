@@ -21,7 +21,7 @@ This project is about making a platform where hackathons, events can be organise
   - Addon Questions Feature
   - An app to get basic details of the hackathon hosted (like participants, checkin, etc.)
 
-# Tech Stack Used
+## Tech Stack Used
 - Front End (HTML & CSS, Responsive Design)
 - JavaScript & ES6
 - React JS
@@ -30,17 +30,13 @@ This project is about making a platform where hackathons, events can be organise
 - MongoDB / SQL
 - Cloud Environment
 
-# Team
+## Team
 - FrontEnd => Praveen Kumar, Priti Rai, Garima Singh, Ayushi, Aditya Kumar Singh, Utkarsh Agarwal
 - BackEnd => Mohit Bhat
 - UI/UX => Utkarsh Udit
 - Overall => Jai Sadana, Nitesh Nagpal
 - Mobile Apps => Aditya Kumar Singh (React Native), Utkarsh Agarwal (Kotlin)
 
-# Please follow the general guidelines:
-- Make a Branch off your Master and work on that.
-- Make a proper README with your name and part of project you are doing, explaining how things are configured and working .
-- Add Proper Comments and focus on Clean Code, in practice.
-- Also reference the Issue in your PR so that it becomes easy for us to review.
+## Contribution Guidelines
 
-**There will be issues created for each module and you have to work on it accordingly as soon as possible.**
+Soon to be added.
