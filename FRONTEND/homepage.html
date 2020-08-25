@@ -1,214 +1,264 @@
 <!doctype html>
-
 <html lang="en">
-  <head>
-   
-      
-     <meta charset="utf-8"> 
-	
+<head>
+    <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <meta http-equiv="x-ua-compattible" content="ie=edge">
-
-       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-		
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
-       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap" rel="stylesheet">
-	 <style type="text/css">
-	    
-		body{
-		  
-		          overflow-x: hidden;
-				   overflow-y: hidden;
-				 
-				    }
-	   
-	   
-	     .logo{
-				 
-				position :absolute;
-				 margin-top: 50px;
-				  left: 50px;
-				 
-				 }
-				 
-		 .register{
-				  
-                  color: blue;
-                 			
-                position: absolute;
-				margin-top:60px;
-				right: 165px;
-				
-	             }
-			   
-		.login{
-				
-				
-                
-                 
+    <meta http-equiv="x-ua-compattible" content="ie=edge">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">	
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style type="text/css" >    
+	body
+    {
+	    overflow-x: hidden;
+        overflow-y: hidden;
+    }
+	.logo
+    {
+		position :absolute;
+		margin-top: 50px;
+		left: 50px;
+	}
+	.register
+    {			  
+        color: blue;         			
+        position: absolute;
+		margin-top:60px;
+		right: 165px;		
+	}		   
+	.login
+    {             
 				 position: absolute;
 				 margin-top:60px;
-				 right: 30px;
-				
-	             }
-			   
-	   .button {
-            
-			      /* blue*/
-                 border: none;
-                 color: white;
-                 padding: 6px 35px;
-                 text-align: center;
-                 text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 15px 5px;
-                 cursor: pointer;
-                 }
+				 right: 30px;			
+	}		   
+	.button 
+    {
+        /* blue*/
+        border: none;
+        color: white;
+        padding: 6px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 12px;
+        font-size: 16px;
+        margin: 15px 5px;
+        cursor: pointer;
+    }
+    .button4 {
+        width: 10px;
+        background-color:grey;
+        }			 
+	.button3 
+    {
+	    background-color: #5DA2F7;
+	    border:1px solid #5DA2F7;
+	    padding: 7px 45px;
+	    margin : 0px 0px 0px 10px;
+	}			 				
+	.button2 
+    {
+        background-color: white;
+		border: 1px solid  #5DA2F7;
+        color:#5DA2F7;
+        margin: 19px ;		
+	}	 
+	.button3:hover 
+    {
+		background-color: 	 #2482F5
+	}
+	.button3:active 
+    {	
+		background-color: #5DA2F7;
+	}		
+	#hoverit:hover 
+    {
+	    color:  #0a68db; 
+	}
+	.button2:hover
+    {
+		border: 1px solid  #0a68db;
+	}
+	.button2:active 
+    {
+		background-color: #FFFFFF;
+		color:black;
+		text-decoration-color: white;
+	}    
+	.hack-shadow
+    {
+		color: #F2F2F2;
+		font-size: 190px;
+		font-family: 'Poppins', sans-serif;
+	    text-align: center;
+	    position: absolute;
+	    top:120px;
+		left:80px;
+	} 
+	.computer
+    {
+		position :absolute;
+		top: 145px;
+		left:640px;
+		z-index:1;
 				 
-	   .button3 {
-	             background-color: #5DA2F7;
-	             border:1px solid #5DA2F7;
-	             padding: 7px 45px;
-	             margin : 0px 0px 0px 10px;
-				 }
-				 				
-	 .button2 {
-	             background-color: white;
-				 border: 1px solid  #5DA2F7;
-                 color:#5DA2F7;
-                 margin: 19px ;		
-				 }
-				 
-	 .button3:hover {
-	             
-				 background-color: 	 #2482F5
-				 }
+	}
+	.vertical-line
+    {
+		border-left:6px solid #9E9E9E;
+		height:140px;
+		position:absolute;
+		left: 9%;
+        margin-left: -2px;
+		top:260px;
+	}			 
+	.letter
+    {
+		color: black;
+		font-family: 'Open Sans', sans-serif;;
+		font-size: 32px;
+	    text-align: center;
+	    position: absolute;
+	    top:270px;
+		left:152px;
+	}		   
+    .letter2
+    {
+		color: black;
+		font-size: 12px;
+	    text-align: center;
+	    position: absolute;
+	    top:360px;
+		left:200px;
+	}
+	.wave
+    { 
+		position :absolute;
+		top: 400px;
+		left:0px;
+	}
+    .modal {
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .modal1 {
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    }
 
-	  .button3:active {
-					
-				background-color: #5DA2F7;
-				}
-				
-	  #hoverit:hover {
-	            color:  #0a68db; 
-				
-				
-				 }
-				 .button2:hover{
-				 			border: 1px solid  #0a68db;
+.modal-content {
+    width: 500px;
+    height: 380px;
+    background: white;
+    padding: 20px;
+}
+.modal1-content {
+    width: 500px;
+    height: 380px;
+    background: white;
+    padding: 20px;
+}
+.visually-hidden {
+  position: absolute !important;
+  height: 90px; width: 1px; 
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
 
-				 }
-	
-	 .button2:active {
-					
-					background-color: #FFFFFF;
-					color:black;
-					text-decoration-color: white;
-					}
-  
-	  
-        
-	   .hack-shadow{
-		        color: #F2F2F2;
-				font-size: 190px;
-				font-family: 'Poppins', sans-serif;
-	             text-align: center;
-	             position: absolute;
-	             top:120px;
-				left:80px;
-	             } 
-				 
+*:focus {
+    outline: 3px dashed blue;
+}
 
-		.computer{
-				 
-				position :relative;
-				 top: 145px;
-				 left:640px;
-				 z-index:1;
-				 
-				 }
-	   	   
-	  
-		 
-				 
-		.vertical-line{
-				 border-left:6px solid #9E9E9E;
-				 height:140px;
-				 position:absolute;
-				 left: 9%;
-				 margin-left: -2px;
-				 top:260px;
-				 }
-				 
-	   .letter{
-		          color: black;
-				 font-family: 'Open Sans', sans-serif;;
-				 font-size: 32px;
-	             text-align: center;
-	             position: absolute;
-	              top:270px;
-				 left:152px;
-	              }
-			   
-	  .letter2{
-		         color: black;
-				 font-size: 12px;
-	             text-align: center;
-	             position: absolute;
-	             top:360px;
-				left:200px;
-	            }
-	   .wave{
-				 
-				position :absolute;
-				 top: 400px;
-				 left:0px;
-				 
-				 } 
-
-	 
-	 </style>
-  </head>
-
-        <body>  
-	  
-    <nav class="navbar navbar-default">
+</style>
+</head>
+<body> 
+    <div>
+	<nav class="navbar navbar-default">
         <img src="logo.png" class="logo" height ="220" width="220" > 
-		
 		<div class="register">
-		
-			  <button class="button button2"><span id="hoverit">Register</span></button>
-		</div>
-		
-             <div class="login">
+			  <button  class="open-modal button button2" ><span id="hoverit">Register</span></button>
+        </div>
+        <div class="modal" role="dialog" aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+            <div class="modal-content">
+                <h2 id="Modal_Title">Create an account</h2>
+                <button class="button button4">1</button><span></span><button>2</button>
+                <button class="close-modal">Close Modal</button>
+                <button class="open-modal1 ">next</button>
+            </div>
+        </div>
+        <div class="login">
 			   <button class="button button3">Log in</button>
 		</div>
-   </nav>	
-
+    </nav>	
 	<div class="main-block">
-			<h1 class="hack-shadow"> HACKER </h1>
-		 	<img src="computer.png" class="computer" height ="400" width="520" > 
-		 	<div class="vertical-line">
-		 	</div>
-
-         	<h2 class="letter">  Mockup to empower your 
-			                    <br>
-						 creative workflow  </h2>
-						 
-        	<h3 class="letter2"> Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do
-	                      <br>
-					
-			elusmod tempor incididunt ut labore et dolore magna aliqua </h3>
-       
-	    	<img src="wave.png" class="wave" height ="300" width="1600" > 
-	 </div>  
-       
+		<h1 class="hack-shadow"> HACKER </h1>
+		<img src="computer.png" class="computer" height ="400" width="520" > 
+		<div class="vertical-line">
+		</div>
+        <h2 class="letter">  Mockup to empower your <br>creative workflow  </h2>			 
+        <h3 class="letter2"> Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do
+	    <br>elusmod tempor incididunt ut labore et dolore magna aliqua </h3>
+        <img src="wave.png" class="wave" height ="300" width="1600" > 
+    </div>   
+    </div>
+    <div class="modal1" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+        <div class="modal1-content">
+            <button class="back-modal">Back</button>
+        </div>
+    </div>  
+    <script>
+    const FOCUSABLE_SELECTORS = 'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]';
+    const openModalBtn = document.querySelector('.open-modal');
+    const openModalBtn1 = document.querySelector('.open-modal1');
+    const closeModalBtn = document.querySelector('.close-modal');
+    const backBtn = document.querySelector('.back-modal');
+    const modal = document.querySelector('.modal');
+    const modal1 = document.querySelector('.modal1');
+    const main = document.querySelector('main');
+    function openModal() {
+    // show the modal
+        modal.style.display = 'flex';
+    }
+    function openModal1() {
+    // show the modal
+        modal.style.display = 'none';
+        modal1.style.display = 'flex';
+    }
+    function closeModal() {
+        modal.style.display = 'none';
+    }
+    function backModal() {
+        modal1.style.display = 'none';
+        modal.style.display = 'flex';
+    }
+    backBtn.addEventListener('click', backModal);
+    openModalBtn.addEventListener('click', openModal);
+    openModalBtn1.addEventListener('click', openModal1);
+    closeModalBtn.addEventListener('click', closeModal);
+    </script> 
 </body>
-
-      
-
 </html>	   
-			  
