@@ -1,0 +1,246 @@
+body
+    {
+        overflow-x: hidden;
+        height: 100%;
+        /*overflow-y: hidden;*/
+    }
+    html
+    {
+        scroll-behavior: smooth;
+        height: 100%;
+    } 
+    .section {
+        height: 100%;
+        padding-top: 1px;
+        margin: auto;
+    }
+    .container{
+        max-width: 1400px;	
+        margin: auto;
+    }
+    .message-text{
+    
+        background-size: cover;
+        background-color: #2323a0;
+        padding:100px 400px;
+        z-index: 1;
+    }
+    .message-text .text{
+        flex: 0 0 66.66%;
+        max-width: 66.66%;
+    }
+    .message-text .text h2{
+        font-size: 25px;
+        color: #ffffff;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+        line-height: 35px;
+    }
+    .message-text .button{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        text-align: right;
+    }
+    .message-text .button a{
+        border-radius: 4px;
+        color: #ffffff;
+        border:1px solid #ffffff;
+        padding: 12px 25px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        transition: all .5s ease;
+        background-color: transparent;
+    }
+    .message-text .button a:hover{
+        background-color: #ffffff;
+        color: #000000;
+    }
+	.logo
+    {
+		position :absolute;
+		margin-top: 50px;
+		left: 50px;
+	}
+	.register
+    {			  
+        color: blue;         			
+        position: absolute;
+		margin-top:60px;
+		right: 165px;		
+	}		   
+	.login
+    {             
+				position: absolute;
+                margin-top:60px;
+                right: 30px;			
+	}		   
+	.button 
+    {
+        /* blue*/
+        border: none;
+        color: white;
+        padding: 6px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 12px;
+        font-size: 16px;
+        margin: 15px 5px;
+        cursor: pointer;
+    }
+    .button4 {
+        width: 10px;
+        background-color:grey;
+        }			 
+	.button3 
+    {
+	    background-color: #5DA2F7;
+	    border:1px solid #5DA2F7;
+	    padding: 7px 45px;
+	    margin : 0px 0px 0px 10px;
+	}			 				
+	.button2 
+    {
+        background-color: white;
+		border: 1px solid  #5DA2F7;
+        color:#5DA2F7;
+        margin: 19px ;		
+	}	 
+	.button3:hover 
+    {
+		background-color: 	 #2482F5
+	}
+	.button3:active 
+    {	
+		background-color: #5DA2F7;
+	}		
+	#hoverit:hover 
+    {
+	    color:  #0a68db; 
+	}
+	.button2:hover
+    {
+		border: 1px solid  #0a68db;
+	}
+	.button2:active 
+    {
+		background-color: #FFFFFF;
+		color:black;
+		text-decoration-color: white;
+    }   
+    .main-block
+    {
+        background-color:white;
+        padding: 100px 0px;
+        height: 100%;
+    } 
+	.main-block .hack-shadow
+    {
+		color: #d1cccc;
+		font-size: 190px;
+		font-family: 'Poppins', sans-serif;
+	    text-align: center;
+	    position: absolute;
+	    /*top:120px;
+		left:80px;*/
+	} 
+	.main-block .computer
+    {
+		position :absolute;
+		top: 150px;
+        left:640px;
+        z-index:1;
+        flex: 0 0 100%;
+	    max-width: 100%;		 
+	}
+	.main-block .vertical-line
+    {
+		border-left:6px solid #9E9E9E;
+		height:140px;
+		position:absolute;
+		left: 9%;
+        margin-left: -2px;
+		top:270px;
+	}			 
+	.main-block .letter
+    {
+		color: black;
+		font-family: 'Open Sans', sans-serif;;
+		font-size: 32px;
+	    text-align: center;
+	    position: absolute;
+	    top:270px;
+		left:152px;
+	}		   
+    .main-block .letter2
+    {
+		color: black;
+		font-size: 12px;
+	    text-align: center;
+	    position: absolute;
+	    top:360px;
+		left:200px;
+	}
+	.main-block .wave
+    { 
+		position :absolute;
+		top: 400px;
+        right:-7px;
+        left: -30px;
+        flex: 0 0 100%;
+        max-width: 200%;
+	}
+    .modal {
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+    .modal1 {
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    }
+
+.modal-content {
+    width: 500px;
+    height: 380px;
+    background: white;
+    padding: 20px;
+}
+.modal1-content {
+    width: 500px;
+    height: 380px;
+    background: white;
+    padding: 20px;
+}
+.visually-hidden {
+  position: absolute !important;
+  height: 90px; width: 1px; 
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+*:focus {
+    outline: 3px dashed blue;
+}
