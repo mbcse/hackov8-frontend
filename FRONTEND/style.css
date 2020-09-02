@@ -221,6 +221,34 @@ body
     flex-direction: column;
     z-index: 2;
     }
+    .logmodal {
+        position: fixed;
+        background: rgba(0, 0, 0, .6);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 2;
+        }
+    .logmodal1 {
+            position: fixed;
+            background: rgba(0, 0, 0, .6);
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            z-index: 3;
+      }
 
 .modal-content {
     width: 500px;
