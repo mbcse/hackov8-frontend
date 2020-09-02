@@ -82,6 +82,7 @@ body
     {
         /* blue*/
         border: none;
+        border-color: white;
         color: white;
         padding: 6px 35px;
         text-align: center;
@@ -91,6 +92,9 @@ body
         font-size: 16px;
         margin: 15px 5px;
         cursor: pointer;
+    }
+    button:active{
+        border: 1px solid  #0a68db;
     }
     .button4 {
         width: 10px;
@@ -112,7 +116,7 @@ body
 	}	 
 	.button3:hover 
     {
-		background-color: 	 #2482F5
+		background-color:  #2482F5;
 	}
 	.button3:active 
     {	
@@ -120,7 +124,7 @@ body
 	}		
 	#hoverit:hover 
     {
-	    color:  #0a68db; 
+	    color:  #2482F5;
 	}
 	.button2:hover
     {
@@ -249,6 +253,34 @@ body
             flex-direction: column;
             z-index: 3;
       }
+      .logmodal2{
+        position: fixed;
+        background: rgba(0, 0, 0, .6);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 3;
+  }
+  .logmodal3{
+    position: fixed;
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 3;
+}
 
 .modal-content {
     width: 500px;
