@@ -15,7 +15,33 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
       
 	  
-	   <style type="text/css">
+       <style type="text/css">
+       .first{
+            width: 700px;
+              height: 500px;
+              background:white;
+              border-radius: 10px;
+              border-top: 5px;
+              padding: 22px;
+              position: relative;
+       }
+       .hmodal-content {
+           position:absolute;
+                border-radius: 10px;
+               width: 94%;
+              height: 90%;
+              background: white;
+               padding: 22px;
+               overflow: hidden;
+                overflow-x: hidden;
+                border: 1px solid black;
+            overflow-y: scroll;
+            scrollbar-width: none;
+        }
+        .hmodal-content::-webkit-scrollbar { /* WebKit */
+            width: 0;
+            height: 0;
+        }
          .logmodal-content {
                 border-radius: 10px;
                width: 650px;
@@ -519,7 +545,6 @@
 				top: 475px;
 				left: 575px;
                 }
-                
 </style>
 	 
 </head>
@@ -662,15 +687,46 @@
     <section class="message-text3">
         <div class="container">
             <h1 style="text-align:center;font: normal normal bold 37pt/42pt Noto Sans;letter-spacing:0pt;color: #3D3D3D;opacity:1;position:absolute;width:480px;top:2075px">Upcoming hackathons</h1>
-            <div class="card" style="width:270px ;height:400px;position:absolute;top:2200px;left:100px;">
+            <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:100px;">
                 <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;">
-                <h4 class="card-title" style="font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;top:200px;left:30px;">Card title</h4>
+                <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;top:10px;left:0px;">HackFest</h4>
+                <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="btn btn-primary" style="text-align:center;font:normal normal 600 16pt/22pt Noto Sans;letter-spacing: 0pt;color: #FCFCFC;opacity: 1;background: #3C3C3C 0% 0% no-repeat padding-box;opacity: 1;width: 120px;position:relative;left: 100px;top: 20px;">Register</a>
             </div>
-            <div class="card" style="width:270px ;height:400px;position:absolute;top:2200px;left:510px;">
+            <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:510px;">
                 <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;">
+                <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;top:10px;left:0px;">HackFest</h4>
+                <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="h-modal btn btn-primary" style="text-align:center;font:normal normal 600 16pt/22pt Noto Sans;letter-spacing: 0pt;color: #FCFCFC;opacity: 1;background: #3C3C3C 0% 0% no-repeat padding-box;opacity: 1;width: 120px;position:relative;left: 100px;top: 20px;">Register</a>
             </div>
-            <div class="card" style="width:270px ;height:400px;position:absolute;top:2200px;left:920px;">
+            <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:920px;">
                 <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;">
+                <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;top:10px;left:0px;">HackFest</h4>
+                <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="btn btn-primary" style="text-align:center;font:normal normal 600 16pt/22pt Noto Sans;letter-spacing: 0pt;color: #FCFCFC;opacity: 1;background: #3C3C3C 0% 0% no-repeat padding-box;opacity: 1;width: 120px;position:relative;left: 100px;top: 20px;">Register</a>
+            </div>
+        </div>
+        <div class="hm" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">  
+            <div class="first">         
+            <div class="hmodal-content">
+                <h1 style="text-align:left;font: normal normal bold 30px/43px Proxima Nova;letter-spacing: 0.36px;color: #1C2126;opacity: 1;">About</h1>
+                <p style="text-align: left;font: normal normal medium 10px/15px Noto Sans;letter-spacing: 0px;color: #272020;opacity: 1;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="hback-modal">Back</button>
+                <button class="hopen-modal1 create-button"> <span id="hoverit">Enter</span></button>
+            </div>
+            </div> 
+        </div>
+        <div class="hmodal1" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+            <div class="logmodal-content">
+                <h2 class="modal-title">Create an account</h2>
+                <button class="button4">1</button>
+				<button class="button5">2</button>	
+                <button class="close-modal"> x </button>
+				<input type="text" class=" form-control" placeholder="Full Name*">
+                <input type="text" class=" form-control2" placeholder="Email Address*">
+                <input type="text" class=" form-control3" placeholder="Mobile Number*"> 
+                <input type="text" class=" form-control4" placeholder="City*">
+                <input type="text" class=" form-control5" placeholder="State*">
             </div>
         </div>
     </section>
@@ -687,8 +743,14 @@
         <div class="container">
         </div>
     </section>
-    <section class="message-text6">
-        <div class="container">
+    <section class="message">
+        <div class="message-text6">
+        </div>
+        <div class="con1">
+            We'd love to hear from you
+        </div>
+        <div class="con2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
         </div>
     </section>
     <section class="message-text7">
@@ -716,6 +778,12 @@
     const logbackBtn = document.querySelector('.logback-modal');
     const logopenModalBtn3 = document.querySelector('.logopen-modal3');
     const logmodal3 = document.querySelector('.logmodal3');
+
+    const hModalBtn = document.querySelector('.h-modal');
+    const hm = document.querySelector('.hm');
+    const hbackBtn = document.querySelector('.hback-modal');
+    const hopenModalBtn1 = document.querySelector('.hopen-modal1');
+    const hmodal1= document.querySelector('.hmodal1');
     function openModal() {
     // show the modal
         modal.style.display = 'flex';
@@ -764,6 +832,23 @@
         logmodal2.style.display = 'none';
         logmodal1.style.display = 'flex';
     }
+/*$(window).off('scroll');*/
+    function hModal() {
+        hm.style.display = 'flex';
+        var current = $(window).scrollTop();
+        $(window).scroll(function(event) {
+            $(window).scrollTop(current);
+        });
+    }
+    function hbackModal() {
+        hm.style.display = 'none';
+        $(window).off('scroll');
+    }
+    function hopenModal1() {
+    // show the modal
+        hm.style.display = 'none';
+        hmodal1.style.display = 'flex';
+    }
     backBtn.addEventListener('click', backModal);
     openModalBtn.addEventListener('click', openModal);
     openModalBtn1.addEventListener('click', openModal1);
@@ -776,6 +861,10 @@
     logopenModalBtn2.addEventListener('click', logopenModal2);
     logopenModalBtn3.addEventListener('click', logopenModal3);
     logbackBtn.addEventListener('click', logbackModal);
+
+    hModalBtn.addEventListener('click', hModal);
+    hbackBtn.addEventListener('click', hbackModal);
+    hopenModalBtn1.addEventListener('click', hopenModal1);
     </script> 
 </body>
 </html>
