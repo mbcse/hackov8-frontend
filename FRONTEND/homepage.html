@@ -25,11 +25,18 @@
               padding: 22px;
               position: relative;
        }
+       .hmodal1-content {
+        border-radius: 10px;
+               width: 650px;
+              height: 480px;
+              background: white;
+               padding: 22px;
+        }
        .hmodal-content {
            position:absolute;
                 border-radius: 10px;
                width: 94%;
-              height: 90%;
+              height: 85%;
               background: white;
                padding: 22px;
                overflow: hidden;
@@ -545,6 +552,38 @@
 				top: 475px;
 				left: 575px;
                 }
+            .hback-modal{
+                width: 80px;
+				   padding:2px 10px;
+				   text-align:centre;
+				    border-radius:12px;
+				    border:1px solid  #F2F4F8;
+                  background-color:#0000001A;
+				  margin:4px 10px;
+            }
+            .hback-modal1{
+                width: 80px;
+				   padding:2px 10px;
+				   text-align:centre;
+				    border-radius:12px;
+				    border:1px solid  #F2F4F8;
+                  background-color:#0000001A;
+				  margin:4px 10px;
+            }
+            .hopen-modal1{
+                position: relative;
+                top: 0px;
+                left: 330px;
+            }
+            .hclose-modal{
+                width: 30px;
+				   padding:2px 8px;
+				   text-align:centre;
+				   border-radius:50%;
+				    border:1px solid  #F2F4F8;
+                  background-color:#0000001A;
+				  margin:4px 10px;
+            }
 </style>
 	 
 </head>
@@ -685,21 +724,23 @@
         <div class="hack">Our Hackathons  >></div>
     </section>
     <section class="message-text3">
+        <span style="font-size:100px;opacity: 1;position:absolute;left: 10px;top: 2350px;">&#8249;</span>
+        <span style="font-size:100px;opacity: 1;position:absolute;left: 1240px;top: 2350px;">&#8250;</span>
         <div class="container">
             <h1 style="text-align:center;font: normal normal bold 37pt/42pt Noto Sans;letter-spacing:0pt;color: #3D3D3D;opacity:1;position:absolute;width:480px;top:2075px">Upcoming hackathons</h1>
-            <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:100px;">
+            <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:90px;">
                 <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;">
                 <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;top:10px;left:0px;">HackFest</h4>
                 <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="#" class="btn btn-primary" style="text-align:center;font:normal normal 600 16pt/22pt Noto Sans;letter-spacing: 0pt;color: #FCFCFC;opacity: 1;background: #3C3C3C 0% 0% no-repeat padding-box;opacity: 1;width: 120px;position:relative;left: 100px;top: 20px;">Register</a>
             </div>
-            <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:510px;">
+            <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:500px;">
                 <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;">
                 <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;top:10px;left:0px;">HackFest</h4>
                 <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="#" class="h-modal btn btn-primary" style="text-align:center;font:normal normal 600 16pt/22pt Noto Sans;letter-spacing: 0pt;color: #FCFCFC;opacity: 1;background: #3C3C3C 0% 0% no-repeat padding-box;opacity: 1;width: 120px;position:relative;left: 100px;top: 20px;">Register</a>
             </div>
-            <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:920px;">
+            <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:910px;">
                 <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;">
                 <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;top:10px;left:0px;">HackFest</h4>
                 <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -710,23 +751,56 @@
             <div class="first">         
             <div class="hmodal-content">
                 <h1 style="text-align:left;font: normal normal bold 30px/43px Proxima Nova;letter-spacing: 0.36px;color: #1C2126;opacity: 1;">About</h1>
-                <p style="text-align: left;font: normal normal medium 10px/15px Noto Sans;letter-spacing: 0px;color: #272020;opacity: 1;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p style="font-size:15px;text-align: left;font: normal normal medium 10px/15px Noto Sans;letter-spacing: 0px;color: #272020;opacity: 1;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                <h1 style="text-align: left;font: normal normal medium 17px/23px Noto Sans;letter-spacing: 0px;color: #272020;opacity: 1;">Prizes</h1>
+                <p style="font-size:15px;text-align: left;font: normal normal medium 10px/15px Noto Sans;letter-spacing: 0px;color: #272020;opacity: 1;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                <h1 style="text-align: left;font: normal normal medium 17px/45px Noto Sans;letter-spacing: 0px;color: #272020;opacity: 1;">Eligibility</h1>
+                <p style="font-size:15px;text-align: left;font: normal normal medium 10px/15px Noto Sans;letter-spacing: 0px;color: #272020;opacity: 1;">-Everyone can participate</p>
+                <p style="font-size:15px;text-align: left;font: normal normal medium 10px/15px Noto Sans;letter-spacing: 0px;color: #272020;opacity: 1;">-Minimum Team Size is 2-5</p>
+                <p style="font-size:15px;text-align: left;font: normal normal medium 10px/15px Noto Sans;letter-spacing: 0px;color: #272020;opacity: 1;">-No age Criteria</p>
+                <p style="font-size:15px;text-align: left;font: normal normal medium 10px/15px Noto Sans;letter-spacing: 0px;color: #272020;opacity: 1;">-This Hackathon is only for Schoos and University Students</p>
                 <button class="hback-modal">Back</button>
-                <button class="hopen-modal1 create-button"> <span id="hoverit">Enter</span></button>
+                <button class="hopen-modal1 button button3"> <span id="hoverit">Register</span></button>
             </div>
+            <img src="logo.png" style="position: relative;top:368px;left:267px;" height ="140" width="110" >
             </div> 
         </div>
         <div class="hmodal1" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
-            <div class="logmodal-content">
-                <h2 class="modal-title">Create an account</h2>
-                <button class="button4">1</button>
-				<button class="button5">2</button>	
-                <button class="close-modal"> x </button>
-				<input type="text" class=" form-control" placeholder="Full Name*">
-                <input type="text" class=" form-control2" placeholder="Email Address*">
-                <input type="text" class=" form-control3" placeholder="Mobile Number*"> 
-                <input type="text" class=" form-control4" placeholder="City*">
-                <input type="text" class=" form-control5" placeholder="State*">
+            <div class="hmodal1-content">
+                <button class="hclose-modal" style="position:relative;top:0px;left:550px;"> x </button>
+                <h2 class="modal-title" style="position:relative;text-align:left;font: normal normal bold 35px/43px Proxima Nova;letter-spacing: 0.42px;color: #1C2126;opacity: 1;top: 0px;">Personal Details</h2>
+                <button class="button4" style="position:absolute;;top:200px;left:450px;">1</button>
+                <button class="button5" style="position:absolute;;top:200px;left:500px;">2</button>					
+                <input type="text" style="position: absolute;top:230px;left:350px;opacity: 1;" class=" form-control" placeholder="Full Name*">
+                <input type="text" style="position: absolute;top:280px;left:350px;opacity: 1;" class=" form-control2" placeholder="Email Address*">
+                <input type="text" style="position: absolute;top:330px;left:350px;opacity: 1;" class=" form-control3" placeholder="Mobile Number*"> 
+                <input type="text" style="position: absolute;top:380px;left:350px;opacity: 1;" class=" form-control4" placeholder="City*">
+                <input type="text" style="position: absolute;top:380px;left:480px;opacity: 1;" class=" form-control5" placeholder="State*">
+                <button class="hopen-modal2 create-button" style="position: absolute;top:440px;left:360px;opacity: 1;"> <span id="hoverit">Next</span></button>
+                <img src="ha1.png" style="position: absolute;top:250px;left:700px;" height ="200" width="200" >
+                <img src="logo.png" style="position: relative;top:280px;left:230px;" height ="140" width="110" >
+            </div>
+        </div>
+        <div class="hmodal2" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+            <div class="hmodal1-content">
+                <button class="hback-modal1" style="position:relative;top:0px;left:510px;">Back</button>
+                <h2 class="modal-title" style="position:relative;text-align:left;font: normal normal bold 35px/43px Proxima Nova;letter-spacing: 0.42px;color: #1C2126;opacity: 1;top: 0px;">Booking Details</h2>
+                <button class="button5" style="position:absolute;;top:200px;left:450px;">1</button>
+                <button class="button4" style="position:absolute;;top:200px;left:500px;">2</button>
+                <p style="text-align:center;top:250px;left:365px;width: 78px;position:absolute;height:30px;text-align: left;font: normal normal bold 22px/30px Noto Sans;letter-spacing: 0px;color: #1C2126;opacity: 1;">Tickets*</p>
+                <div style="top:255px;left:540px;position:absolute;width:20px;height:20px;background-color: #E4E4E4;">-</div>
+                <div style="top:255px;left:560px;position:absolute;width:20px;height:20px;background-color:#28BBF6;">0</div>
+                <div style="top:255px;left:580px;position:absolute;width:20px;height:20px;background-color: #E4E4E4;">+</div>
+                <p style="font-family: FontAwesome;top:280px;left:560px;width: 78px;position:absolute;">&#x20B9 00</p>
+                <input type="text" style="position: absolute;top:300px;left:350px;opacity: 1;" class=" form-control2" placeholder="Team Members*">
+                <input type="text" style="position: absolute;top:350px;left:350px;opacity: 1;" class=" form-control3" placeholder="Team Name*"> 
+                <input style="position: absolute;top:430px;left:365px;opacity:1;" type="checkbox" id="autoSizingCheck">
+				<h3 style="position:absolute;top:430px;left:375px;opacity:1;" class="form-check"> To create an Account, you'll need to agree to the <br>
+					         Hack-ov8 </h3>
+				<a style="position: absolute;top:442px;left:445px;opacity:1;"class="link" href="#">Terms Of service</a>
+                <button class="hclose-modal1 create-button" style="position: absolute;top:470px;left:360px;opacity: 1;"> <span id="hoverit">Confirm Participation</span></button>
+                <img src="ha.png" style="position: absolute;top:200px;left:650px;" height ="320" width="250" >
+                <img src="logo.png" style="position: relative;top:280px;left:230px;" height ="140" width="110" >
             </div>
         </div>
     </section>
@@ -783,7 +857,12 @@
     const hm = document.querySelector('.hm');
     const hbackBtn = document.querySelector('.hback-modal');
     const hopenModalBtn1 = document.querySelector('.hopen-modal1');
+    const hopenModalBtn2 = document.querySelector('.hopen-modal2');
     const hmodal1= document.querySelector('.hmodal1');
+    const hmodal2= document.querySelector('.hmodal2');
+    const hcloseModalBtn = document.querySelector('.hclose-modal');
+    const hcloseModalBtn1 = document.querySelector('.hclose-modal1');
+    const hbackBtn1 = document.querySelector('.hback-modal1');
     function openModal() {
     // show the modal
         modal.style.display = 'flex';
@@ -844,10 +923,27 @@
         hm.style.display = 'none';
         $(window).off('scroll');
     }
+    function hbackModal1() {
+        hmodal2.style.display = 'none';
+        hmodal1.style.display = 'flex';
+    }
+    function hcloseModal1() {
+        hmodal2.style.display = 'none';
+        $(window).off('scroll');
+    }
     function hopenModal1() {
     // show the modal
         hm.style.display = 'none';
         hmodal1.style.display = 'flex';
+    }
+    function hopenModal2() {
+    // show the modal
+        hmodal1.style.display = 'none';
+        hmodal2.style.display = 'flex';
+    }
+    function hcloseModal() {
+        hmodal1.style.display = 'none';
+        $(window).off('scroll');
     }
     backBtn.addEventListener('click', backModal);
     openModalBtn.addEventListener('click', openModal);
@@ -864,7 +960,11 @@
 
     hModalBtn.addEventListener('click', hModal);
     hbackBtn.addEventListener('click', hbackModal);
+    hbackBtn1.addEventListener('click', hbackModal1);
     hopenModalBtn1.addEventListener('click', hopenModal1);
+    hopenModalBtn2.addEventListener('click', hopenModal2);
+    hcloseModalBtn.addEventListener('click', hcloseModal);
+    hcloseModalBtn1.addEventListener('click', hcloseModal1);
     </script> 
 </body>
 </html>
