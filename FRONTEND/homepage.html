@@ -12,585 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      
-	  
-       <style type="text/css">
-       .first{
-            width: 700px;
-              height: 500px;
-              background:white;
-              border-radius: 10px;
-              border-top: 5px;
-              padding: 22px;
-              position: relative;
-       }
-       .hmodal1-content {
-        border-radius: 10px;
-               width: 650px;
-              height: 480px;
-              background: white;
-               padding: 22px;
-        }
-       .hmodal-content {
-           position:absolute;
-                border-radius: 10px;
-               width: 94%;
-              height: 85%;
-              background: white;
-               padding: 22px;
-               overflow: hidden;
-                overflow-x: hidden;
-                border: 1px solid black;
-            overflow-y: scroll;
-            scrollbar-width: none;
-        }
-        .hmodal-content::-webkit-scrollbar { /* WebKit */
-            width: 0;
-            height: 0;
-        }
-         .logmodal-content {
-                border-radius: 10px;
-               width: 650px;
-              height: 480px;
-              background: white;
-               padding: 22px;
-                        }
-            .logmodal-title {
-                font-size:30px;
-               font-family: 'Crete Round', serif;
-	            position:absolute;
-	           top:180px;
-                left:360px;
-            }
-            .logmodal3-title {
-                font-size:16px;
-               font-family: 'Crete Round', serif;
-                position:absolute;
-                color:#54F52B;
-	           top:150px;
-                left:530px;
-            }
-            .logcheck-box{
-				outline:0px;
-				   position:absolute;
-				   top: 390px;
-				   left: 370px;
-                   }
-            .logform-check{
-                    left:390px;
-				     font-size:11px;
-					 font-family: 'Crete Round', serif;
-					 position:absolute;
-					 top: 390px;
-             }
-            .logopen-modal1{
-                left:520px;
-				     font-size:11px;
-					 font-family: 'Crete Round', serif;
-					 position:absolute;
-					 top: 390px;
-            }
-            .logopen-modal1:hover{ 
-                cursor:grab; 
-            } 
-            .logclose-modal{
-                width: 30px;
-				   padding:2px 10px;
-				   text-align:centre;
-				    border-radius:12px;
-				    border:1px solid  #F2F4F8;
-                  background-color:#0000001A;
-				  margin:4px 10px;
-				  position:absolute;
-				  top:120px;
-				  left:880px;
-            }
-            .logclose-modal1{
-                width: 30px;
-				   padding:2px 10px;
-				   text-align:centre;
-				    border-radius:12px;
-				    border:1px solid  #F2F4F8;
-                  background-color:#0000001A;
-				  margin:4px 10px;
-				  position:absolute;
-				  top:120px;
-				  left:880px;
-            }
-            .form-control8{
-				  width:240px;
-				    border: none;
-				   border:1px solid #F2F4F8;
-                background-color: #F2F4F8;
-                 padding: 6px 35px;
-                text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 25px 10px;
-                 cursor: pointer;
-				 outline:0px;
-				 position:absolute;
-				 top:235px;
-				 left:350px;
-                 } 
-                 .form-control9{
-				  width:240px;
-				    border: none;
-				   border:1px solid #F2F4F8;
-                background-color: #F2F4F8;
-                 padding: 6px 35px;
-                text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 25px 10px;
-                 cursor: pointer;
-				 outline:0px;
-				 position:absolute;
-				 top:290px;
-				 left:350px;
-                 }
-            .logprofile{
-				position:absolute;
-				top: 200px;
-                left: 675px;
-                width: 220px;
-                height: 300px;
-            } 
-            .logback-modal {
-				  width: 80px;
-				   padding:2px 10px;
-				   text-align:centre;
-				    border-radius:12px;
-				    border:1px solid  #F2F4F8;
-                  background-color:#0000001A;
-				  margin:4px 10px;
-				  position:absolute;
-				  top:120px;
-				  left:850px;
-			}
-							 
-		   .modal-content {
-                border-radius: 10px;
-               width: 650px;
-              height: 480px;
-              background: white;
-               padding: 22px;
-                        }
-						
-			
-          .modal-title{
-		    font-size:30px;
-			font-family: 'Crete Round', serif;
-			position:absolute;
-			top:20px;
-			left:40px;
-		    }	 
-		
-          .button4{
-		  
-		          /* blue*/
-				  width:5px;
-                 border: none;
-				   border:1px solid  #5DA2F7;
-                background-color: #0000001A ;
-                 padding: 4px 15px;
-                 text-align: center;
-				 color: #5DA2F7;
-                 text-decoration: none;
-                 display: inline-block;
-                 border-radius: 10px;
-                 font-size: 16px;
-                  margin: 6px 3px;
-                 cursor: pointer;
-				 position:absolute;
-				 top: 70px;
-				 left: 100px;
-                 }
-		  
-                     .button5{
-		         
-				  width:5px;
-                 border: none;
-				   border:1px solid  #707070;
-                background-color: #FFFFFF;
-                 padding: 4px 15px;
-                 text-align: center ! Important;
-				 color: #888888;
-                 text-decoration: none;
-                 display: inline-block;
-                 border-radius: 10px;
-                 font-size: 16px;
-                  margin: 6px 3px;
-                 cursor: pointer;
-				 position:absolute;
-				 top:70px;
-				 left:160px;
-                 }
-				 
-				.close-modal{
-				  width: 30px;
-				   padding:2px 8px;
-				   text-align:centre;
-				   border-radius:50%;
-				    border:1px solid  #F2F4F8;
-                  background-color:#0000001A;
-				  margin:4px 10px;
-				  position:absolute;
-				  top:15px;
-				  left:550px;
-				  }
-				  
-                  .form-control{
-				  width:240px;
-				    border: none;
-				   border:1px solid #F2F4F8;
-                background-color: #F2F4F8;
-                 padding: 6px 35px;
-                text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 25px 10px;
-                 cursor: pointer;
-				 outline:0px;
-				 position:absolute;
-				 top:105px;
-				 left:30px;
-                 }  
-				 
-				  .form-control2{
-				  width:240px;
-				    border: none;
-				   border:1px solid #F2F4F8;
-                background-color: #F2F4F8;
-                 padding: 6px 35px;
-                text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 25px 10px;
-                 cursor: pointer;
-				 outline:0px;
-				 position:absolute;
-				 top:155px;
-				 left:30px;
-                 }
-                 
-				  .form-control3{
-				  width:240px;
-				    border: none;
-				   border:1px solid #F2F4F8;
-                background-color: #F2F4F8;
-                 padding: 6px 35px;
-                text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 25px 10px;
-                 cursor: pointer;
-				 outline:0px;
-				 position:absolute;
-				 top:205px;
-				 left:30px;
-                 }
-				 
-				  
-				  .form-control4{
-				  width:110px;
-				    border: none;
-				   border:1px solid #F2F4F8;
-                background-color: #F2F4F8;
-                 padding: 6px 25px;
-                text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 25px 10px;
-                 cursor: pointer;
-				 outline:0px;
-				 position:absolute;
-				 top:255px;
-				 left:30px;
-                 }
-               
-			      .form-control5{
-				  width:110px;
-				    border: none;
-				   border:1px solid #F2F4F8;
-                background-color: #F2F4F8;
-                 padding: 6px 25px;
-                text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 25px 10px;
-                 cursor: pointer;
-				 outline:0px;
-				 position:absolute;
-				 top:255px;
-				 left:160px;
-				 }
-				 
-                   .open-modal1{
-				  width:230px;
-				    border: none;
-				   border:1px solid #5DA2F7;
-                background-color: #5DA2F7;
-                 padding: 6px 25px;
-                 text-align:centre;
-				 color: white;
-                 text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 10px 5px;
-                 cursor: pointer;
-				 position:absolute;
-				 top:330px;
-				 left:35px;
-                 }   
-				 .open-modal1:hover{
-                     background-color: #2482F5;
-                 }
-				 
-			    
-                .sign-in {
-				  font-size:13px;
-				  font-family: 'Crete Round', serif;
-				  position:absolute;
-				  top:390px;
-				  left: 50px;
-				  }
-
-                .google{
-				position:absolute;
-				top: 420px;
-				left: 100px;
-				}
-				
-				  .github{
-				position:absolute;
-				top: 420px;
-				left: 160px;
-				}
-
-                 .lower-logo{
-				position:absolute;
-				top: 386px;
-				left: 260px;
-				}
-
-                .profile{
-				position:absolute;
-				top: 100px;
-				left: 320px;
-				}
-
-               .modal1-content {
-                border-radius: 10px;
-                    width: 650px;
-                height: 480px;
-                background: white;
-                padding: 22px;
-                  }
-                 
-				   .back-modal {
-				  width: 80px;
-				   padding:2px 10px;
-				   text-align:centre;
-				    border-radius:12px;
-				    border:1px solid  #F2F4F8;
-                  background-color:#0000001A;
-				  margin:4px 10px;
-				  position:absolute;
-				  top:120px;
-				  left:850px;
-				  }
-
-                      .modal1-title2 {
-		                font-size:30px;
-			            font-family: 'Crete Round', serif;
-			             position:absolute;
-			            top:118px;
-			              left:360px;
-		                     }
-							 
-				.button6{
-		         
-				  width:5px;
-                 border: none;
-				   border:1px solid  #707070;
-                background-color: #FFFFFF;
-                 padding: 4px 15px;
-                 text-align: center ! Important;
-				 color: #888888;
-                 text-decoration: none;
-                 display: inline-block;
-                 border-radius: 10px;
-                 font-size: 16px;
-                  margin: 6px 3px;
-                 cursor: pointer;
-				 position:absolute;
-				 top:160px;
-				 left:420px;
-                 }
-				 
-				 
-				    .button7{
-		  
-		          /* blue*/
-				  width:5px;
-                 border: none;
-				   border:1px solid  #5DA2F7;
-                background-color: #0000001A ;
-                 padding: 4px 15px;
-                 text-align: center;
-                 justify-content: center;
-				 color: #5DA2F7;
-                 text-decoration: none;
-                 display: inline-block;
-                 border-radius: 10px;
-                 font-size: 16px;
-                  margin: 6px 3px;
-                 cursor: pointer;
-				 position:absolute;
-				 top: 160px;
-				 left: 480px;
-                 }
-		   
-		         .form-control6{
-				  width:240px;
-				    border: none;
-				   border:1px solid #F2F4F8;
-                background-color: #F2F4F8;
-                 padding: 6px 35px;
-                text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 25px 10px;
-                 cursor: pointer;
-				 outline:0px;
-				 position:absolute;
-				 top:205px;
-				 left:350px;
-                 }  
-				 
-				   .form-control7{
-				  width:240px;
-				    border: none;
-				   border:1px solid #F2F4F8;
-                background-color: #F2F4F8;
-                 padding: 6px 35px;
-                text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 25px 10px;
-                 cursor: pointer;
-				 outline:0px;
-				 position:absolute;
-				 top:255px;
-				 left:350px;
-                 }  
-				.check-box{
-				outline:0px;
-				   position:absolute;
-				   top: 360px;
-				   left: 370px;
-				   }
-				   
-				   .form-check{
-				     font-size:11px;
-					 font-family: 'Crete Round', serif;
-					 position:absolute;
-					 top: 355px;
-					 left: 380px;
-					 }
-					 
-					  .link{
-					  color:#5DA2F7;
-					  font-size:11px;
-					  position:absolute;
-					  top: 367px;
-					  left: 507px;
-					  }
-					  
-					 .profile2{
-				        position:absolute;
-				         top: 200px;
-				        left: 640px;
-				          }
-						  
-					 .create-button{
-					 
-				         width:230px;
-				    border: none;
-				   border:1px solid #5DA2F7;
-                background-color: #5DA2F7;
-                 padding: 6px 25px;
-                 text-align:centre;
-				 color: white;
-                 text-decoration: none;
-                 display: inline-block;
-                 border-radius: 12px;
-                 font-size: 16px;
-                  margin: 10px 5px;
-                 cursor: pointer;
-				 position:absolute;
-				 top:420px;
-				 left:370px;
-                 }   
-				 .create-button:hover{
-                     background-color: #2482F5;
-                 }
-			.lower-logo2{
-				position:absolute;
-				top: 475px;
-				left: 575px;
-                }
-            .hback-modal{
-                width: 80px;
-				   padding:2px 10px;
-				   text-align:centre;
-				    border-radius:12px;
-				    border:1px solid  #F2F4F8;
-                  background-color:#0000001A;
-				  margin:4px 10px;
-            }
-            .hback-modal1{
-                width: 80px;
-				   padding:2px 10px;
-				   text-align:centre;
-				    border-radius:12px;
-				    border:1px solid  #F2F4F8;
-                  background-color:#0000001A;
-				  margin:4px 10px;
-            }
-            .hopen-modal1{
-                position: relative;
-                top: 0px;
-                left: 330px;
-            }
-            .hclose-modal{
-                width: 30px;
-				   padding:2px 8px;
-				   text-align:centre;
-				   border-radius:50%;
-				    border:1px solid  #F2F4F8;
-                  background-color:#0000001A;
-				  margin:4px 10px;
-            }
-</style>
-	 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
 </head>
 <body> 
     <header>
 	<nav class="navbar navbar-default">
-        <img src="logo.png" class="logo" height ="220" width="220" > 
+        <img src="images/logo.png" class="logo" height ="220" width="220" > 
 		<div class="register">
 			  <button  class="open-modal button button2" ><span id="hoverit">Register</span></button>
         </div>
@@ -607,10 +34,10 @@
                 <input type="text" class=" form-control5" placeholder="State*">
                 <h3 class="sign-in"> ________ Or Sign In With________</h3>
 				<button class="open-modal1"> <span id="hoverit">Next </span></button>
-                <img src="google.png" class="google" height ="40" width="40" > 
-				<img src="github.png" class="github" height ="40" width="40" > 
-				<img src="logo.png" class="lower-logo" height ="140" width="110" > 
-				<img src="profile.png" class="profile" height ="270" width="260" > 
+                <img src="images/google.png" class="google" height ="40" width="40" > 
+				<img src="images/github.png" class="github" height ="40" width="40" > 
+				<img src="images/logo.png" class="lower-logo" height ="140" width="110" > 
+				<img src="images/profile.png" class="profile" height ="270" width="260" > 
 			</div>
         </div>
         <div class="login">
@@ -628,8 +55,8 @@
 				<h3 class="form-check"> To create an Account, you'll need to agree to the <br>
 					         Hack-ov8 </h3>
 				<a class="link" href="#">Terms Of service</a>
-				<img src="profile.png" class="profile2" height ="270" width="260"  > 
-				<img src="logo.png" class="lower-logo2" height ="140" width="110" > 		 
+				<img src="images/profile.png" class="profile2" height ="270" width="260"  > 
+				<img src="images/logo.png" class="lower-logo2" height ="140" width="110" > 		 
 				<button class="create-button"> <span id="hoverit">Create Account </span></button>			   
             </div>
         </div> 
@@ -639,12 +66,12 @@
                 <button class="logclose-modal"> x </button>
                 <input type="text"  class=" form-control8" placeholder="Email Id*" height="300">
                 <input type="text" style="font-family: FontAwesome;" class=" form-control9" placeholder="Password*                    &#xf070">
-                <img src="logp.png" class="logprofile" height ="270" width="260" >
+                <img src="images/logp.png" class="logprofile" height ="270" width="260" >
                 <input class="logcheck-box" type="checkbox" id="autoSizingCheck" checked>
                 <h3 class="logform-check" left="390">Keep me signed in</h3>
                 <h4 class="logopen-modal1">Forgot Password?</h4>
                 <button class="create-button"> <span id="hoverit">Sign In</span></button>
-                <img src="logo.png" class="lower-logo2" height ="140" width="110" >
+                <img src="images/logo.png" class="lower-logo2" height ="140" width="110" >
             </div>
         </div> 
         <div class="logmodal1" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
@@ -653,7 +80,7 @@
                 <button class="logclose-modal1"> x </button>
                 <input type="text" class=" form-control8" placeholder="Email Id*" height="300">
                 <button class="logopen-modal2 create-button"> <span id="hoverit">Enter</span></button>
-                <img src="grp.png" class="logprofile" height ="270" width="260" >
+                <img src="images/grp.png" class="logprofile" height ="270" width="260" >
             </div>
         </div> 
         <div class="logmodal2" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
@@ -663,7 +90,7 @@
                 <input type="text" style="font-family: FontAwesome;" class=" form-control8" placeholder="Password*                    &#xf070" height="300">
                 <input type="text" style="font-family: FontAwesome;" class=" form-control9" placeholder="Confirm-Password*     &#xf070">
                 <button class="logopen-modal3 create-button"> <span id="hoverit">Enter</span></button>
-                <img src="grp.png" class="logprofile" height ="270" width="260" >
+                <img src="images/grp.png" class="logprofile" height ="270" width="260" >
             </div>
         </div> 
         <div class="logmodal3" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
@@ -673,12 +100,12 @@
                 <button class="logclose-modal"> x </button>
                 <input type="text" class=" form-control8" placeholder="Email Id*" height="300">
                 <input type="text" style="font-family: FontAwesome;" class=" form-control9" placeholder="Password*                    &#xf070">
-                <img src="logp.png" class="logprofile" height ="270" width="260" >
+                <img src="images/logp.png" class="logprofile" height ="270" width="260" >
                 <input class="logcheck-box" type="checkbox" id="autoSizingCheck" checked>
                 <h3 class="logform-check" left="390">Keep me signed in</h3>
                 <h4 class="logopen-modal1">Forgot Password?</h4>
                 <button class="create-button"> <span id="hoverit">Sign In</span></button>
-                <img src="logo.png" class="lower-logo2" height ="140" width="110" >
+                <img src="images/logo.png" class="lower-logo2" height ="140" width="110" >
             </div>
         </div> 
     </nav>
@@ -686,13 +113,13 @@
 	<section class="main-block">
         <div class="container">
 		<h1 class="hack-shadow"> HACKER </h1>
-		<img src="computer.png" class="computer" height ="400" width="520" > 
+		<img src="images/computer.png" class="computer" height ="400" width="520" > 
 		<div class="vertical-line">
 		</div>
         <h2 class="letter">  Mockup to empower your <br>creative workflow  </h2>			 
         <h3 class="letter2"> Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do
 	    <br>elusmod tempor incididunt ut labore et dolore magna aliqua </h3>
-        <img src="wave.png" class="wave" height ="300" width="1600" >
+        <img src="images/wave.png" class="wave" height ="300" width="1600" >
         </div>
     </section>   
     <section class="message">
@@ -708,13 +135,13 @@
             <div class=mi1>Our Mission</div>
             <div class="mi2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
             <div class="card" style="width:200px ;height:190px;position:absolute;top:1180px;left:750px;">
-                <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;height:100%">
+                <img class="card-img-top" src="images/mountain.jpeg" alt="Card image" style="width:100%;height:100%">
             </div>
             <div class="card" style="width:200px ;height:190px;position:absolute;top:1180px;left:980px;">
-                <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;height:100%">
+                <img class="card-img-top" src="images/mountain.jpeg" alt="Card image" style="width:100%;height:100%">
             </div>
             <div class="card" style="width:430px ;height:190px;position:absolute;top:1400px;left:750px;">
-                <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;height:100%">
+                <img class="card-img-top" src="images/mountain.jpeg" alt="Card image" style="width:100%;height:100%">
             </div>
         </div>
     </section>
@@ -729,19 +156,19 @@
         <div class="container">
             <h1 style="text-align:center;font: normal normal bold 37pt/42pt Noto Sans;letter-spacing:0pt;color: #3D3D3D;opacity:1;position:absolute;width:480px;top:2075px">Upcoming hackathons</h1>
             <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:90px;">
-                <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;">
+                <img class="card-img-top" src="images/mountain.jpeg" alt="Card image" style="width:100%;">
                 <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;top:10px;left:0px;">HackFest</h4>
                 <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="#" class="btn btn-primary" style="text-align:center;font:normal normal 600 16pt/22pt Noto Sans;letter-spacing: 0pt;color: #FCFCFC;opacity: 1;background: #3C3C3C 0% 0% no-repeat padding-box;opacity: 1;width: 120px;position:relative;left: 100px;top: 20px;">Register</a>
             </div>
             <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:500px;">
-                <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;">
+                <img class="card-img-top" src="images/mountain.jpeg" alt="Card image" style="width:100%;">
                 <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;top:10px;left:0px;">HackFest</h4>
                 <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="#" class="h-modal btn btn-primary" style="text-align:center;font:normal normal 600 16pt/22pt Noto Sans;letter-spacing: 0pt;color: #FCFCFC;opacity: 1;background: #3C3C3C 0% 0% no-repeat padding-box;opacity: 1;width: 120px;position:relative;left: 100px;top: 20px;">Register</a>
             </div>
             <div class="card" style="width:310px ;height:450px;position:absolute;top:2200px;left:910px;">
-                <img class="card-img-top" src="mountain.jpeg" alt="Card image" style="width:100%;">
+                <img class="card-img-top" src="images/mountain.jpeg" alt="Card image" style="width:100%;">
                 <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;top:10px;left:0px;">HackFest</h4>
                 <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;top:10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="#" class="btn btn-primary" style="text-align:center;font:normal normal 600 16pt/22pt Noto Sans;letter-spacing: 0pt;color: #FCFCFC;opacity: 1;background: #3C3C3C 0% 0% no-repeat padding-box;opacity: 1;width: 120px;position:relative;left: 100px;top: 20px;">Register</a>
@@ -762,7 +189,7 @@
                 <button class="hback-modal">Back</button>
                 <button class="hopen-modal1 button button3"> <span id="hoverit">Register</span></button>
             </div>
-            <img src="logo.png" style="position: relative;top:368px;left:267px;" height ="140" width="110" >
+            <img src="images/logo.png" style="position: relative;top:368px;left:267px;" height ="140" width="110" >
             </div> 
         </div>
         <div class="hmodal1" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
@@ -777,8 +204,8 @@
                 <input type="text" style="position: absolute;top:380px;left:350px;opacity: 1;" class=" form-control4" placeholder="City*">
                 <input type="text" style="position: absolute;top:380px;left:480px;opacity: 1;" class=" form-control5" placeholder="State*">
                 <button class="hopen-modal2 create-button" style="position: absolute;top:440px;left:360px;opacity: 1;"> <span id="hoverit">Next</span></button>
-                <img src="ha1.png" style="position: absolute;top:250px;left:700px;" height ="200" width="200" >
-                <img src="logo.png" style="position: relative;top:280px;left:230px;" height ="140" width="110" >
+                <img src="images/ha1.png" style="position: absolute;top:250px;left:700px;" height ="200" width="200" >
+                <img src="images/logo.png" style="position: relative;top:280px;left:230px;" height ="140" width="110" >
             </div>
         </div>
         <div class="hmodal2" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
@@ -799,8 +226,8 @@
 					         Hack-ov8 </h3>
 				<a style="position: absolute;top:442px;left:445px;opacity:1;"class="link" href="#">Terms Of service</a>
                 <button class="hclose-modal1 create-button" style="position: absolute;top:470px;left:360px;opacity: 1;"> <span id="hoverit">Confirm Participation</span></button>
-                <img src="ha.png" style="position: absolute;top:200px;left:650px;" height ="320" width="250" >
-                <img src="logo.png" style="position: relative;top:280px;left:230px;" height ="140" width="110" >
+                <img src="images/ha.png" style="position: absolute;top:200px;left:650px;" height ="320" width="250" >
+                <img src="images/logo.png" style="position: relative;top:280px;left:230px;" height ="140" width="110" >
             </div>
         </div>
     </section>
@@ -830,142 +257,8 @@
     <section class="message-text7">
         <div class="container">
         </div>
-    </section>
-    <script>
-    const FOCUSABLE_SELECTORS = 'a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, *[tabindex], *[contenteditable]';
-    const openModalBtn = document.querySelector('.open-modal');
-    const openModalBtn1 = document.querySelector('.open-modal1');
-    const closeModalBtn = document.querySelector('.close-modal');
-    const backBtn = document.querySelector('.back-modal');
-    const modal = document.querySelector('.modal');
-    const modal1 = document.querySelector('.modal1');
-    const main = document.querySelector('main');
-
-    const logopenModalBtn = document.querySelector('.log-open-modal');
-    const logcloseModalBtn = document.querySelector('.logclose-modal');
-    const logmodal = document.querySelector('.logmodal');
-    const logopenModalBtn1 = document.querySelector('.logopen-modal1');
-    const logmodal1 = document.querySelector('.logmodal1');
-    const logcloseModalBtn1 = document.querySelector('.logclose-modal1');
-    const logopenModalBtn2 = document.querySelector('.logopen-modal2');
-    const logmodal2 = document.querySelector('.logmodal2');
-    const logbackBtn = document.querySelector('.logback-modal');
-    const logopenModalBtn3 = document.querySelector('.logopen-modal3');
-    const logmodal3 = document.querySelector('.logmodal3');
-
-    const hModalBtn = document.querySelector('.h-modal');
-    const hm = document.querySelector('.hm');
-    const hbackBtn = document.querySelector('.hback-modal');
-    const hopenModalBtn1 = document.querySelector('.hopen-modal1');
-    const hopenModalBtn2 = document.querySelector('.hopen-modal2');
-    const hmodal1= document.querySelector('.hmodal1');
-    const hmodal2= document.querySelector('.hmodal2');
-    const hcloseModalBtn = document.querySelector('.hclose-modal');
-    const hcloseModalBtn1 = document.querySelector('.hclose-modal1');
-    const hbackBtn1 = document.querySelector('.hback-modal1');
-    function openModal() {
-    // show the modal
-        modal.style.display = 'flex';
-    }
-    function openModal1() {
-    // show the modal
-        modal.style.display = 'none';
-        modal1.style.display = 'flex';
-    }
-    function closeModal() {
-        modal.style.display = 'none';
-    }
-    function backModal() {
-        modal1.style.display = 'none';
-        modal.style.display = 'flex';
-    }
-
-    function logopenModal() {
-    // show the modal
-        logmodal.style.display = 'flex';
-    }
-    function logcloseModal() {
-        logmodal.style.display = 'none';
-    }
-    function logcloseModal1() {
-        logmodal1.style.display = 'none';
-    }
-    function logopenModal1() {
-    // show the modal
-        logmodal.style.display = 'none';
-        logmodal1.style.display = 'flex';
-    }
-    function logopenModal2() {
-    // show the modal
-        logmodal1.style.display = 'none';
-        logmodal2.style.display = 'flex';
-    }
-    function logopenModal3() {
-    // show the modal
-        logmodal2.style.display = 'none';
-        logmodal3.style.display = 'flex';
-        setInterval(function(){ logmodal3.style.display = 'none'; }, 2000);
-        logmodal.style.display = 'flex';
-    }
-    function logbackModal() {
-        logmodal2.style.display = 'none';
-        logmodal1.style.display = 'flex';
-    }
-/*$(window).off('scroll');*/
-    function hModal() {
-        hm.style.display = 'flex';
-        var current = $(window).scrollTop();
-        $(window).scroll(function(event) {
-            $(window).scrollTop(current);
-        });
-    }
-    function hbackModal() {
-        hm.style.display = 'none';
-        $(window).off('scroll');
-    }
-    function hbackModal1() {
-        hmodal2.style.display = 'none';
-        hmodal1.style.display = 'flex';
-    }
-    function hcloseModal1() {
-        hmodal2.style.display = 'none';
-        $(window).off('scroll');
-    }
-    function hopenModal1() {
-    // show the modal
-        hm.style.display = 'none';
-        hmodal1.style.display = 'flex';
-    }
-    function hopenModal2() {
-    // show the modal
-        hmodal1.style.display = 'none';
-        hmodal2.style.display = 'flex';
-    }
-    function hcloseModal() {
-        hmodal1.style.display = 'none';
-        $(window).off('scroll');
-    }
-    backBtn.addEventListener('click', backModal);
-    openModalBtn.addEventListener('click', openModal);
-    openModalBtn1.addEventListener('click', openModal1);
-    closeModalBtn.addEventListener('click', closeModal);
-
-    logopenModalBtn.addEventListener('click', logopenModal);
-    logcloseModalBtn.addEventListener('click', logcloseModal);
-    logcloseModalBtn1.addEventListener('click', logcloseModal1);
-    logopenModalBtn1.addEventListener('click', logopenModal1);
-    logopenModalBtn2.addEventListener('click', logopenModal2);
-    logopenModalBtn3.addEventListener('click', logopenModal3);
-    logbackBtn.addEventListener('click', logbackModal);
-
-    hModalBtn.addEventListener('click', hModal);
-    hbackBtn.addEventListener('click', hbackModal);
-    hbackBtn1.addEventListener('click', hbackModal1);
-    hopenModalBtn1.addEventListener('click', hopenModal1);
-    hopenModalBtn2.addEventListener('click', hopenModal2);
-    hcloseModalBtn.addEventListener('click', hcloseModal);
-    hcloseModalBtn1.addEventListener('click', hcloseModal1);
-    </script> 
+    </section> 
+    <script src="script.js"></script>
 </body>
 </html>
 
