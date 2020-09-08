@@ -40,6 +40,36 @@ body
         width: 100%;
         object-fit: cover;
     }
+	
+	.contact-us{
+		font: normal normal bold 45px/65px  'Hammersmith One', sans-serif;
+		color:#000000;
+		position:absolute;
+		top:4440px;
+		left:825px;
+	}
+	
+	.send-button{
+		
+               width:300px;
+          border: none;
+         border:1px solid #3C3C3C;
+      background-color:  #3C3C3C;
+       padding: 6px 25px;
+       text-align:centre;
+       color: white;
+       text-decoration: none;
+       display: inline-block;
+       border-radius: 12px;
+       font-size: 16px;
+        margin: 10px 5px;
+       cursor: pointer;
+       position:absolute;
+       top:4950px;
+       left:790px;
+       }   
+       
+	  
     .message-text6{
         padding:100px 400px;
         z-index: 1;
@@ -262,20 +292,21 @@ body
     .button4 {
         width:5px;
                  border: none;
-				   border:1px solid  #5DA2F7;
-                background-color: #0000001A ;
+				   border:1px solid  #F2F4F8;
+                background-color: #BDEDFF;
                  padding: 4px 15px;
                  text-align: center;
 				 color: #5DA2F7;
                  text-decoration: none;
                  display: inline-block;
                  border-radius: 10px;
+				 font-weight:bold;
                  font-size: 16px;
                   margin: 6px 3px;
                  cursor: pointer;
 				 position:absolute;
 				 top: 70px;
-				 left: 100px;
+				 left: 105px;
         }			 
 	.button3 
     {
@@ -532,16 +563,18 @@ body
     background-color:#0000001A;
     margin:4px 10px;
     position:absolute;
-    top:120px;
-    left:850px;
+    top:100px;
+    left:890px;
     }
 
         .modal1-title2 {
-          font-size:30px;
-          font-family: 'Crete Round', serif;
-           position:absolute;
-          top:118px;
-            left:360px;
+         font-size:28px;
+		font-weight:Bold;
+        font-family:'Hammersmith One', sans-serif;
+        position:absolute;
+        top:120px;
+        left:380px;
+        
                }
 .modal1-content {
     border-radius: 10px;
@@ -629,18 +662,20 @@ border-radius: 10px;
 }
  .logmodal-content {
         border-radius: 10px;
-       width: 650px;
+       width: 720px;
       height: 480px;
       background: white;
        padding: 22px;
                 }
     .logmodal-title {
-        font-size:30px;
-       font-family: 'Crete Round', serif;
+        font-size:37px;
+       font-family: 'Squada One', cursive;
         position:absolute;
        top:180px;
-        left:360px;
+        left:420px;
     }
+	
+		 
     .logmodal3-title {
         font-size:16px;
        font-family: 'Crete Round', serif;
@@ -652,15 +687,16 @@ border-radius: 10px;
     .logcheck-box{
         outline:0px;
            position:absolute;
-           top: 390px;
-           left: 370px;
+           top: 370px;
+           left: 420px;
            }
     .logform-check{
             left:390px;
              font-size:11px;
              font-family: 'Crete Round', serif;
              position:absolute;
-             top: 390px;
+             top: 370px;
+			 left:440px;
      }
 
      .logopen-modal1{
@@ -668,7 +704,8 @@ border-radius: 10px;
              font-size:11px;
              font-family: 'Crete Round', serif;
              position:absolute;
-             top: 390px;
+             top: 370px;
+			 left:570px;
     }
     .logopen-modal1:hover{ 
         cursor:grab; 
@@ -682,8 +719,8 @@ border-radius: 10px;
           background-color:#0000001A;
           margin:4px 10px;
           position:absolute;
-          top:120px;
-          left:880px;
+          top:110px;
+          left:970px;
     }
     .logclose-modal1{
         width: 30px;
@@ -694,8 +731,8 @@ border-radius: 10px;
           background-color:#0000001A;
           margin:4px 10px;
           position:absolute;
-          top:120px;
-          left:880px;
+          top:105px;
+          left:970px;
     }
     .form-control8{
           width:240px;
@@ -712,7 +749,7 @@ border-radius: 10px;
          outline:0px;
          position:absolute;
          top:235px;
-         left:350px;
+         left:410px;
          } 
          .form-control9{
           width:240px;
@@ -729,15 +766,37 @@ border-radius: 10px;
          outline:0px;
          position:absolute;
          top:290px;
-         left:350px;
+         left:410px;
          }
     .logprofile{
         position:absolute;
         top: 200px;
-        left: 675px;
+        left: 725px;
         width: 220px;
         height: 300px;
     } 
+	 .logopen-modal2{
+           
+               width:240px;
+          border: none;
+         border:1px solid #5DA2F7;
+      background-color: #5DA2F7;
+       padding: 6px 25px;
+       text-align:centre;
+       color: white;
+       text-decoration: none;
+       display: inline-block;
+       border-radius: 12px;
+       font-size: 16px;
+        margin: 10px 5px;
+       cursor: pointer;
+       position:absolute;
+       top:350px;
+       left:415px;
+       }   
+       .logopen-modal2:hover{
+           background-color: #2482F5;
+       }
     .logback-modal {
           width: 80px;
            padding:2px 10px;
@@ -747,35 +806,13 @@ border-radius: 10px;
           background-color:#0000001A;
           margin:4px 10px;
           position:absolute;
-          top:120px;
-          left:850px;
+          top:105px;
+          left:920px;
     }
-
-    .modal-title{
-        font-size:30px;
-        font-family: 'Crete Round', serif;
-        position:absolute;
-        top:20px;
-        left:40px;
-        }	
-
-        .link{
-            color:#5DA2F7;
-            font-size:11px;
-            position:absolute;
-            top: 367px;
-            left: 507px;
-            }
-            
-           .profile2{
-              position:absolute;
-               top: 200px;
-              left: 640px;
-                }
-                
-           .create-button{
+	
+	    .logopen-modal3{
            
-               width:230px;
+               width:240px;
           border: none;
          border:1px solid #5DA2F7;
       background-color: #5DA2F7;
@@ -790,14 +827,83 @@ border-radius: 10px;
        cursor: pointer;
        position:absolute;
        top:420px;
-       left:370px;
+       left:410px;
+       }   
+       .logopen-modal3{
+           background-color: #2482F5;
+       }
+	
+	.create-button2{
+           
+               width:240px;
+          border: none;
+         border:1px solid #5DA2F7;
+      background-color: #5DA2F7;
+       padding: 6px 25px;
+       text-align:centre;
+       color: white;
+       text-decoration: none;
+       display: inline-block;
+       border-radius: 12px;
+       font-size: 16px;
+        margin: 10px 5px;
+       cursor: pointer;
+       position:absolute;
+       top:420px;
+       left:410px;
+       }   
+       .create-button:hover{
+           background-color: #2482F5;
+       }
+
+    .modal-title{
+        font-size:28px;
+		font-weight:Bold;
+        font-family:'Hammersmith One', sans-serif;
+        position:absolute;
+        top:20px;
+        left:38px;
+        }	
+
+        .link{
+            color:#5DA2F7;
+            font-size:13px;
+            position:absolute;
+            top: 367px;
+            left: 483px;
+            }
+            
+           .profile2{
+              position:absolute;
+               top: 200px;
+              left: 710px;
+                }
+                
+           .create-button{
+           
+               width:240px;
+          border: none;
+         border:1px solid #5DA2F7;
+      background-color: #5DA2F7;
+       padding: 6px 25px;
+       text-align:centre;
+       color: white;
+       text-decoration: none;
+       display: inline-block;
+       border-radius: 12px;
+       font-size: 16px;
+        margin: 10px 5px;
+       cursor: pointer;
+       position:absolute;
+       top:420px;
+       left:378px;
        }   
        .create-button:hover{
            background-color: #2482F5;
        }
        .sign-in {
+		
         font-size:13px;
-        font-family: 'Crete Round', serif;
         position:absolute;
         top:390px;
         left: 50px;
@@ -818,27 +924,27 @@ border-radius: 10px;
        .lower-logo{
       position:absolute;
       top: 386px;
-      left: 260px;
+      left: 270px;
       }
 
       .profile{
       position:absolute;
       top: 100px;
-      left: 320px;
+      left: 350px;
       }
       .check-box{
         outline:0px;
            position:absolute;
            top: 360px;
-           left: 370px;
+           left: 400px;
            }
            
            .form-check{
-             font-size:11px;
+             font-size:13px;
              font-family: 'Crete Round', serif;
              position:absolute;
              top: 355px;
-             left: 380px;
+             left: 405px;
              }
 
              .form-control{
@@ -933,7 +1039,7 @@ border-radius: 10px;
                }
 
                .form-control6{
-                width:240px;
+                width:250px;
                   border: none;
                  border:1px solid #F2F4F8;
               background-color: #F2F4F8;
@@ -946,12 +1052,12 @@ border-radius: 10px;
                cursor: pointer;
                outline:0px;
                position:absolute;
-               top:205px;
-               left:350px;
+               top:210px;
+               left:370px;
                }  
                
                  .form-control7{
-                width:240px;
+                width:250px;
                   border: none;
                  border:1px solid #F2F4F8;
               background-color: #F2F4F8;
@@ -964,15 +1070,15 @@ border-radius: 10px;
                cursor: pointer;
                outline:0px;
                position:absolute;
-               top:255px;
-               left:350px;
+               top:260px;
+               left:370px;
                } 
 
                .button6{
                 width:5px;
                border: none;
-                 border:1px solid  #707070;
-              background-color: #FFFFFF;
+                 border:1px solid #00000029;
+                 background-color: #FFFFFF;
                padding: 4px 15px;
                text-align: center ! Important;
                color: #888888;
@@ -983,8 +1089,8 @@ border-radius: 10px;
                 margin: 6px 3px;
                cursor: pointer;
                position:absolute;
-               top:160px;
-               left:420px;
+               top:165px;
+               left:445px;
                }
                
                
@@ -993,8 +1099,8 @@ border-radius: 10px;
                 /* blue*/
                 width:5px;
                border: none;
-                 border:1px solid  #5DA2F7;
-              background-color: #0000001A ;
+                   border:1px solid  #F2F4F8;
+                background-color: #BDEDFF;
                padding: 4px 15px;
                text-align: center;
                justify-content: center;
@@ -1006,12 +1112,12 @@ border-radius: 10px;
                 margin: 6px 3px;
                cursor: pointer;
                position:absolute;
-               top: 160px;
-               left: 480px;
+               top: 165px;
+               left: 520px;
                }
 
                .open-modal1{
-                width:230px;
+                width:240px;
                   border: none;
                  border:1px solid #5DA2F7;
               background-color: #5DA2F7;
@@ -1034,14 +1140,14 @@ border-radius: 10px;
   .lower-logo2{
       position:absolute;
       top: 475px;
-      left: 575px;
+      left: 610px;
       }
 
       .button5{
 		         
         width:5px;
        border: none;
-         border:1px solid  #707070;
+         border:1px solid #00000029;
       background-color: #FFFFFF;
        padding: 4px 15px;
        text-align: center ! Important;
@@ -1054,7 +1160,7 @@ border-radius: 10px;
        cursor: pointer;
        position:absolute;
        top:70px;
-       left:160px;
+       left:181px;
        }
        
       .close-modal{
@@ -1067,5 +1173,414 @@ border-radius: 10px;
         margin:4px 10px;
         position:absolute;
         top:15px;
-        left:550px;
+        left:590px;
         }
+		
+		 footer{
+			position:absolute;
+			top:5130px;
+			
+			width:100%;
+			height:220px;
+			background:#365167 0% 0% no-repeat padding-box;
+		 }
+		 
+		 .script{
+			 text-align:centre;
+			 font: normal normal bold 30px/100px  'Hammersmith One', sans-serif;
+             letter-spacing: 0px;
+            color: #FFFFFF;
+			position:absolute;
+			top:43px;
+			left:150px;
+		 }
+		 
+		 .fa {
+   color:white;
+  font-size: 35px;
+  position:absolute;
+  top:40px;
+  left: 930px;
+		 }
+		 
+		 .fa-twitter {
+  
+  color: white;
+  
+  font-size: 35px;
+  position:absolute;
+  top:70px;
+  left: 930px;
+}
+	
+       .fa-instagram {
+ 
+  color: white;
+    font-size: 35px;
+  position:absolute;
+  top:100px;
+  left: 930px;
+}	
+
+
+       .fa-linkedin {
+ 
+  color: white;
+   font-size: 35px;
+  position:absolute;
+  top:130px;
+  left: 930px;
+}
+     .facebook{
+	  color:white;
+	  font-size:13px;
+	  position:absolute;
+	  top:40px;
+	  left: 970px;
+	 }
+	 
+	 .twitter{
+		color:white;
+	  font-size:13px;
+	  position:absolute;
+	  top:70px;
+	  left: 970px;
+	 } 
+	 
+	 .instagram{
+		color:white;
+	  font-size:13px;
+	  position:absolute;
+	  top:100px;
+	  left: 970px;
+	 }  
+ 
+      .linkedln{
+         color:white;
+	  font-size:13px;
+	  position:absolute;
+	  top:130px;
+	  left: 970px;
+	 } 	
+
+     .more-info{
+            color:white;
+	  font-size:15px;
+	  position:absolute;
+	  top:40px;
+	  left: 1160px;
+	 } 		 
+	 
+	 .message-text5{
+		 background-color: #F3F3F3;
+		 
+	 }
+	 
+	.manager-name{
+		color:black;
+		font-size: 30px;
+		 font-family:'Bree Serif', serif;
+		position:absolute;
+		top: 3400px;
+		left: 100px;
+	}
+	
+	.manager{
+		color:black;
+		font-size: 20px;
+		position:absolute;
+		top: 3440px;
+		left: 110px;
+	}
+	
+	.manager-name2{
+		color:black;
+		font-size: 30px;
+		 font-family:'Bree Serif', serif;
+		position:absolute;
+		top: 3400px;
+		left: 360px;
+	}
+	
+	
+	.manager2{
+		color:black;
+		font-size: 20px;
+		position:absolute;
+		top: 3440px;
+		left: 368px;
+	}
+	
+	.front-end-name{
+		color:black;
+		font-size: 30px;
+		 font-family:'Bree Serif', serif;
+		position:absolute;
+		top: 3400px;
+		left: 615px;
+	}
+	
+	.frontend{
+		color:black;
+		font-size: 20px;
+		position:absolute;
+		top: 3440px;
+		left: 608px;
+	}
+	
+	.front-end-name2{
+		color:black;
+		font-size: 30px;
+		 font-family:'Bree Serif', serif;
+		position:absolute;
+		top: 3400px;
+		left: 890px;
+	}
+	
+	.frontend2{
+		color:black;
+		font-size: 20px;
+		position:absolute;
+		top: 3440px;
+		left: 845px;
+	}
+	
+	.ui-designer{
+		color:black;
+		font-size: 30px;
+		 font-family:'Bree Serif', serif;
+		position:absolute;
+		top: 3400px;
+		left: 1090px;
+	}
+	
+	.ui{
+		
+		color:black;
+		font-size: 20px;
+		position:absolute;
+		top: 3440px;
+		left: 1145px;
+	}
+	
+	.head-name{
+		color:black;
+		font-size: 30px;
+		 font-family:'Bree Serif', serif;
+		position:absolute;
+		top: 3760px;
+		left: 90px;
+	}
+	
+	
+	
+	
+	.team{
+	color:black;
+		font-size: 20px;
+		position:absolute;
+		top: 3800px;
+		left: 140px;
+	}
+	
+	.content{
+		color:black;
+		font-size: 30px;
+		 font-family:'Bree Serif', serif;
+		position:absolute;
+		top: 3760px;
+		left: 340px;
+	}
+	
+   .writer{
+	   
+	   	
+	color:black;
+		font-size: 20px;
+		position:absolute;
+		top: 3800px;
+		left: 378px;
+	}
+	   
+	   .back-end{
+		
+          color:black;
+		font-size: 30px;
+		 font-family:'Bree Serif', serif;
+		position:absolute;
+		top: 3760px;
+		left: 630px;
+	}
+  
+   .backend-name{
+	    color:black;
+		font-size: 20px;
+		position:absolute;
+		top: 3800px;
+		left: 614px;
+	}
+	
+	 .back-end2{
+		
+          color:black;
+		font-size: 30px;
+		 font-family:'Bree Serif', serif;
+		position:absolute;
+		top: 3760px;
+		left: 850px;
+	}
+  
+   .backend-name2{
+	    color:black;
+		font-size: 20px;
+		position:absolute;
+		top: 3800px;
+		left: 860px;
+	}
+	
+	.back-end3{
+		
+          color:black;
+		font-size: 30px;
+		 font-family:'Bree Serif', serif;
+		position:absolute;
+		top: 3760px;
+		left: 1080px;
+	}
+  
+   .backend-name3{
+	    color:black;
+		font-size: 20px;
+		position:absolute;
+		top: 3800px;
+		left: 1110px;
+	}
+	
+	
+	 .linkedin2 {
+ 
+ 
+  position:absolute;
+  top:3470px;
+  left: 160px;
+	 }
+	 
+	 .mail{
+		  position:absolute;
+  top:3478px;
+  left: 200px;
+	 }
+		 
+		 
+		  .linkedin3 {
+ 
+ 
+  position:absolute;
+  top:3470px;
+  left: 410px;
+	 }
+	 
+	 .mail2{
+		  position:absolute;
+  top:3478px;
+  left: 450px;
+	 }
+		 
+		 
+		  .linkedin4 {
+ 
+ 
+  position:absolute;
+  top:3470px;
+  left: 660px;
+	 }
+	 
+	 .mail3{
+		  position:absolute;
+  top:3478px;
+  left: 700px;
+	 }
+		 
+		 
+		  .linkedin5{
+ 
+ 
+  position:absolute;
+  top:3470px;
+  left: 890px;
+	 }
+	 
+	 .mail4{
+		  position:absolute;
+  top:3478px;
+  left: 930px;
+	 }
+	 
+	   .linkedin6{
+ 
+ 
+  position:absolute;
+  top:3470px;
+  left: 1140px;
+	 }
+	 
+	 .mail5{
+		  position:absolute;
+  top:3478px;
+  left: 1180px;
+	 }
+	
+    .linkedin7{
+		 position:absolute;
+       top: 3830px;
+		left: 150px;
+	}		
+		 .mail6{
+		  position:absolute;
+  top:3838px;
+  left: 190px;
+	 } 
+	 
+	 .linkedin8{
+		 position:absolute;
+       top: 3830px;
+		left: 410px;
+	}		
+		 .mail7{
+		  position:absolute;
+  top:3838px;
+  left: 450px;
+	 } 
+	 
+	  .linkedin9{
+		 position:absolute;
+       top: 3830px;
+		left: 650px;
+	}		
+		 .mail8{
+		  position:absolute;
+  top:3838px;
+  left: 690px;
+	 } 
+	 
+	   .linkedin10{
+		 position:absolute;
+       top: 3830px;
+		left: 900px;
+	}		
+		 .mail9{
+		  position:absolute;
+  top:3838px;
+  left: 940px;
+	 } 
+	 
+	  .linkedin11{
+		 position:absolute;
+       top: 3830px;
+		left: 1150px;
+	}		
+		 .mail10{
+		  position:absolute;
+  top:3838px;
+  left: 1190px;
+	 } 
