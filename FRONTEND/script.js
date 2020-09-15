@@ -29,6 +29,10 @@ const FOCUSABLE_SELECTORS = 'a[href], area[href], input:not([disabled]), select:
     const hcloseModalBtn = document.querySelector('.hclose-modal');
     const hcloseModalBtn1 = document.querySelector('.hclose-modal1');
     const hbackBtn1 = document.querySelector('.hback-modal1');
+
+    const searchBtn = document.querySelector('.search-button');
+    const searchm = document.querySelector('.searchm');
+    const searchc = document.querySelector('.searchclose-modal');
     function openModal() {
     // show the modal
         modal.style.display = 'flex';
@@ -111,6 +115,13 @@ const FOCUSABLE_SELECTORS = 'a[href], area[href], input:not([disabled]), select:
         hmodal1.style.display = 'none';
         $(window).off('scroll');
     }
+
+    function searchmodal() {
+        searchm.style.display = 'flex';
+    }
+    function searchc1() {
+        searchm.style.display = 'none';
+    }
     backBtn.addEventListener('click', backModal);
     openModalBtn.addEventListener('click', openModal);
     openModalBtn1.addEventListener('click', openModal1);
@@ -131,5 +142,6 @@ const FOCUSABLE_SELECTORS = 'a[href], area[href], input:not([disabled]), select:
     hopenModalBtn2.addEventListener('click', hopenModal2);
     hcloseModalBtn.addEventListener('click', hcloseModal);
     hcloseModalBtn1.addEventListener('click', hcloseModal1);
-	
+    searchBtn.addEventListener('click', searchmodal);
+    searchc.addEventListener('click', searchc1);
 	
