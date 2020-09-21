@@ -1,3 +1,4 @@
+
 body
     {
         overflow-x: hidden;
@@ -564,7 +565,7 @@ body
     margin:4px 10px;
     position:absolute;
     top:100px;
-    left:890px;
+    left:870px;
     }
 
         .modal1-title2 {
@@ -876,7 +877,7 @@ border-radius: 10px;
            .profile2{
               position:absolute;
                top: 200px;
-              left: 710px;
+              left: 690px;
                 }
                 
            .create-button{
@@ -1176,23 +1177,15 @@ border-radius: 10px;
         left:590px;
         }
 		
-		 footer{
-			position:absolute;
-			top:5130px;
-			
-			width:100%;
-			height:220px;
-			background:#365167 0% 0% no-repeat padding-box;
-		 }
-		 
+		
 		 .script{
 			 text-align:centre;
 			 font: normal normal bold 30px/100px  'Hammersmith One', sans-serif;
              letter-spacing: 0px;
             color: #FFFFFF;
 			position:absolute;
-			top:43px;
-			left:150px;
+			top:70px;
+			left:180px;
 		 }
 		 
 		 .fa {
@@ -1616,6 +1609,9 @@ border-radius: 10px;
 		top:25px;
 		left:1150px;
 	}
+	
+	
+
 	 
 	  .person{
 		
@@ -1662,9 +1658,125 @@ border-radius: 10px;
                text-align:centre;
                 border-radius:12px;
                 border:1px solid  #F2F4F8;
-              background-color:#0000001A;
+              background-color:#9F9F9F;
               margin:4px 10px;
               position:absolute;
               top:25px;
               left:850px;
         }
+		.search-control{
+			width:730px;
+			height:70px;
+			outline:0px;
+			position:absolute;
+			top:10px;
+			left:80px;
+		}
+		
+		.search2{
+		
+		 display:inline-block;
+		padding:0px 0px;
+		
+	     outline:0px;
+		position:absolute;
+		top:30px;
+		left:100px;
+		}
+		
+		
+		.search-logo{
+          position:absolute;
+           top: 250px;
+           left:380px;
+		}
+
+		.c-button{
+			 width:90px;
+               border: none;
+                 border:1px solid #00000029;
+                 background-color: #BBBBBB;
+               padding: 6px 15px;
+              
+               color: #FFFFFF;
+               text-decoration: none;
+               display: inline-block;
+               border-radius: 10px;
+               font-size: 10px;
+                margin: 6px 8px;
+               cursor: pointer;
+               position:absolute;
+			   top:160px;
+			   left:200px;
+		}
+			   
+		.html{	   
+			 
+                width:90px;
+               border: none;
+                 border:1px solid #00000029;
+                 background-color: #BBBBBB;
+               padding: 6px 15px;
+              
+               color: #FFFFFF;
+               text-decoration: none;
+               display: inline-block;
+               border-radius: 10px;
+               font-size: 10px;
+                margin: 6px 8px;
+               cursor: pointer;
+               position:absolute;
+			   top:160px;
+			   left:320px;
+		}
+
+
+        .html2{	   
+			 
+                width:90px;
+               border: none;
+                 border:1px solid #00000029;
+                 background-color: #BBBBBB;
+               padding: 6px 15px;
+              
+               color: #FFFFFF;
+               text-decoration: none;
+               display: inline-block;
+               border-radius: 10px;
+               font-size: 10px;
+                margin: 6px 8px;
+               cursor: pointer;
+               position:absolute;
+			   top:160px;
+			   left:440px;
+		}	
+
+         .html3{	   
+			 
+                width:90px;
+               border: none;
+                 border:1px solid #00000029;
+                 background-color: #BBBBBB;
+               padding: 6px 15px;
+              
+               color: #FFFFFF;
+               text-decoration: none;
+               display: inline-block;
+               border-radius: 10px;
+               font-size: 10px;
+                margin: 6px 8px;
+               cursor: pointer;
+               position:absolute;
+			   top:160px;
+			   left:560px;
+		}				
+		 footer{
+			 margin:0px;
+			position:absolute;
+			top:5160px;
+			width:100%;
+			height:290px;
+			background:#365167;
+		 }
+		 
+		

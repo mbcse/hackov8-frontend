@@ -145,3 +145,5 @@ const FOCUSABLE_SELECTORS = 'a[href], area[href], input:not([disabled]), select:
     searchBtn.addEventListener('click', searchmodal);
     searchc.addEventListener('click', searchc1);
 	
+
+    
