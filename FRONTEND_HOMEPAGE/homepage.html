@@ -1,16 +1,19 @@
-<!doctype html>
-<html lang="en">
-<head>
+ <!doctype html>
+ <html lang="en">
+ <head>
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compattible" content="ie=edge">
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
-   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Jockey+One&family=Squada+One&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Jockey+One&family=Squada+One&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&family=Open+Sans+Condensed:wght@300;700&family=Secular+One&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
+	
 
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap" rel="stylesheet"> 
 	
@@ -149,11 +152,31 @@
         </div> 
 		
        <div class="notification-bar">
-		  <button class="notification " ><span id="hoverit">
+		  <button id="myBtn"  class="notification " ><span id="hoverit">
             <img src="images/notification.png" width="20" height="23">
           </span></button>
-		  
-		   
+			 <div id="myDropdown" class="dropdown-content">
+            <a href="#">
+			   <p class="dropdown-content__notification" style="font-size: 22px; font-family:'Merriweather Sans', sans-serif;">Notification</p>
+			   <a href="#">
+              <div>
+			     
+                    <p class="dropdown-content__message" style="font-size: 20px; font-family: 'Secular One', sans-serif; postion:absolute;">Hackfest in 2 days</p>
+                    <p class="dropdown-content__meta">Time: 1:00pm</p>
+                  </div> </a> 
+				  
+				  <a class="dropdown-content__mark" href="#" style=" color:#7093ED; font-size:15px; font-family:'Open Sans Condensed', sans-serif;">Mark all as read</a> 
+				  
+				 <a href="#">
+				 <div>
+			  
+			     <button class="dropdown-content__view-all" > Viewall </button>	
+				</div> </a> 
+             
+                  
+                  
+             </div>
+            			
 		</div>
 		  
 		  
