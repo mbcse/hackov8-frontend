@@ -152,4 +152,19 @@ const FOCUSABLE_SELECTORS = 'a[href], area[href], input:not([disabled]), select:
   function myFunction() {
    document.getElementById("myDropdown").classList.toggle("show");
    }
-    
+   var load=true;
+   if (load){
+    var x = document.getElementById('registerid');
+    x.style.visibility = 'hidden';
+    var y = document.getElementById('loginid');
+    y.style.visibility = 'hidden';
+}
+   else 
+    {
+        var x = document.getElementById('sid');
+        x.style.visibility = 'hidden';
+        var y = document.getElementById('nid');
+        y.style.visibility = 'hidden';
+        var z = document.getElementById('pid');
+        z.style.visibility = 'hidden';
+    }
