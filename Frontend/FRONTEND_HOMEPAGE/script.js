@@ -152,7 +152,7 @@ const FOCUSABLE_SELECTORS = 'a[href], area[href], input:not([disabled]), select:
   function myFunction() {
    document.getElementById("myDropdown").classList.toggle("show");
    }
-   var load=true;
+   var load=false;
    if (load){
     var x = document.getElementById('registerid');
     x.style.visibility = 'hidden';
@@ -168,3 +168,50 @@ const FOCUSABLE_SELECTORS = 'a[href], area[href], input:not([disabled]), select:
         var z = document.getElementById('pid');
         z.style.visibility = 'hidden';
     }
+var fullname="";
+var email="";
+var number="";
+var city="";
+var state="";
+    $("#btnregister").click(function(e) 
+    {
+        e.preventDefault();
+        var fullname=$('#fullname').val();
+        var email=$('#email').val();
+        var number=$('#number').val();
+        var city=$('#city').val();
+        var state=$('#state').val();
+});
+$("#btncreate").click(function(e) 
+    {
+        e.preventDefault();
+        var password=$('#password').val();
+        var cpassword=$('#cpassword').val();
+        var markers={"password":password,
+            fullname:fullname,
+            email:email,
+            phoneno:number,
+            city:city,
+            state:state}
+        $.ajax(
+            { 
+                url: "http://127.0.0.1:5500/homepage.html",
+                //data:JSON.stringify({ Markers: markers }),
+                //contentType: "application/json; charset=utf-8",
+                //dataType: "json",
+                data:$('#password').val(),
+                type: 'POST',
+                success: function(data){
+                    console.log(data);
+                },
+                error: function(){
+                    alert('No data');
+                }
+            })
+            .done(function(response) 
+            {
+                console.log('hi');
+                console.log(response);
+                var result = JSON.parse(response);      
+            });
+        });

@@ -34,19 +34,19 @@
 		<div class="register" id="registerid">
 			  <button  class="open-modal button button2" ><span id="hoverit">Register</span></button>
         </div>
-        <div class="modal" role="dialog" aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+        <div class="modal" id="registerForm" role="dialog" aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
             <div class="modal-content">
                 <h2 class="modal-title">Create an account</h2>
                 <button class="button4">1</button>
 				<button class="button5">2</button>	
                 <button class="close-modal"> x </button>
-				<input type="text" class=" form-control" placeholder="Full Name*">
-                <input type="text" class=" form-control2" placeholder="Email Address*">
-                <input type="text" class=" form-control3" placeholder="Mobile Number*"> 
-                <input type="text" class=" form-control4" placeholder="City*">
-                <input type="text" class=" form-control5" placeholder="State*">
+				<input type="text" class=" form-control" id="fullname" placeholder="Full Name*">
+                <input type="text" class=" form-control2" id="email" placeholder="Email Address*">
+                <input type="text" class=" form-control3" id="number" placeholder="Mobile Number*"> 
+                <input type="text" class=" form-control4" id="city" placeholder="City*">
+                <input type="text" class=" form-control5" id="state" placeholder="State*">
                 <h3 class="sign-in"> __________  Or Sign In With  __________</h3>
-				<button class="open-modal1"> <span id="hoverit">Next </span></button>
+				<button class="open-modal1" id="btnregister" type="submit" name="submit"> <span id="hoverit">Next </span></button>
                 <img src="images/google.png" class="google" height ="40" width="40" > 
 				<img src="images/github.png" class="github" height ="40" width="40" > 
 				<img src="images/logo.png" class="lower-logo" height ="140" width="150" > 
@@ -62,15 +62,15 @@
 				<h2 class="modal1-title2">Create an account</h2>
 				<button class="button6">1</button>
 				<button class="button7">2</button>
-				<input type="text" style="font-family: FontAwesome;" class=" form-control6" placeholder="Password*                    &#xf070">
-				<input type="text" style="font-family: FontAwesome;" class=" form-control7" placeholder="Confirm-Password*     &#xf070">
+				<input type="text" style="font-family: FontAwesome;" class=" form-control6" id="password" placeholder="Password*                    &#xf070">
+				<input type="text" style="font-family: FontAwesome;" class=" form-control7" id="cpassword" placeholder="Confirm-Password*     &#xf070">
 				<input class="check-box" type="checkbox" id="autoSizingCheck">
 				<h3 class="form-check"> To create an Account, you'll need to agree to the <br>
 					         Hack-ov8 </h3>
 				<a class="link" href="#">Terms Of service</a>
 				<img src="images/profile.png" class="profile2" height ="270" width="260"  > 
 				<img src="images/logo.png" class="lower-logo2" height ="140" width="150" > 		 
-				<button class="create-button"> <span id="hoverit">Create Account </span></button>			   
+				<button class="create-button" id="btncreate"> <span id="hoverit">Create Account </span></button>			   
             </div>
         </div> 
         <div class="logmodal" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
