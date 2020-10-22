@@ -74,7 +74,7 @@ const FOCUSABLE_SELECTORS = 'a[href], area[href], input:not([disabled]), select:
     // show the modal
         logmodal2.style.display = 'none';
         logmodal3.style.display = 'flex';
-        setInterval(function(){ logmodal3.style.display = 'none'; }, 2000);
+        setInterval(function(){ logmodal3.style.display = 'none'; }, 3000);
         logmodal.style.display = 'flex';
     }
     function logbackModal() {
@@ -215,3 +215,13 @@ $("#btncreate").click(function(e)
                 var result = JSON.parse(response);      
             });
         });
+
+
+        function myFunction1() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }

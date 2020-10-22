@@ -29,8 +29,208 @@
 </head>
 <body> 
     <header>
-	<nav class="navbar navbar-default">
-        <img src="images/logo.png" class="logo" height ="220" width="220" > 
+        <div class="topnav" id="myTopnav">
+        <img src="images/rsz_logo.png"  height ="50" width="200" style="position:absolute;top: 2%;left:5%;"> 
+        <a>
+        <div class="register" id="registerid">
+            <button  class="open-modal button button2" ><span id="hoverit">Register</span></button>
+        </div>
+        </a>
+        <div class="modal" id="registerForm" role="dialog" aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+            <div class="modal-content">
+                <div class="box1" style="position: relative;display: inline-block;">
+                <h2 class="modal-title" style="position: relative;margin-left: 10%;margin-top: 3%;">Create an account</h2>
+                <button class="button4" style="position: relative;margin-top: 3%;margin-left: 28%;">1</button>
+                <button class="button5" style="position: relative;margin-top: 3%;margin-left: 5%;">2</button>
+                <input type="text" class=" form-control" style="position: relative;margin-top: 6%;margin-left: 10%;" id="fullname" placeholder="Full Name*">
+                <input type="text" class=" form-control2" id="email" style="position: relative;margin-top: 6%;margin-left: 10%;" placeholder="Email Address*">
+                <input type="text" class=" form-control3" style="position: relative;margin-top: 6%;margin-left: 10%;" id="number" placeholder="Mobile Number*"> 
+                <input type="text" class=" form-control4" id="city" style="position: relative;margin-top: 6%;margin-left: 10%;" placeholder="City*">
+                <input type="text" class=" form-control5" id="state" style="position: relative;margin-top: 6%;margin-left: 5%;" placeholder="State*">
+                <button class="open-modal1" style="position: relative;margin-top: 6%;margin-left: 10%;" id="btnregister" type="submit" name="submit"> <span id="hoverit">Next </span></button>
+                <h3 class="sign-in" style="position: relative;margin-top: 7%;margin-left: 10%;"> __________  Or Sign In With  __________</h3>
+                <img src="images/google.png" class="google" style="position: relative;margin-left: 30%;"> 
+				<img src="images/github.png" class="github" style="position: relative;"> 
+                </div>
+                <div class="box2">
+                <button class="close-modal" style="position: relative;margin-left:90%;"> x </button>
+                <img src="images/profile.png" style="position:relative;margin-top:13%;width: 83%;height: 62%;">
+                <img src="images/rsz_logo.png" style="position: relative;width:50%;margin-top:21%;" >
+                </div>
+			</div>
+        </div>
+        <a>
+        <div class="login" id="loginid">
+            <button class="log-open-modal button button3">Log in</button>
+        </div>
+        </a>
+        <div class="modal1" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+            <div class="modal1-content">
+                <div class="box1" style="position: relative;display: inline-block;">
+                <h2 class="modal-title" style="position: relative;margin-left: 10%;margin-top:13%;">Create an account</h2>
+                <button class="button6" style="position: relative;margin-top: 3%;margin-left: 28%;">1</button>
+                <button class="button7" style="position: relative;margin-top: 3%;margin-left: 5%;">2</button>
+                <input type="text"  class=" form-control6" style="font-family: FontAwesome;position: relative;margin-top:4%;margin-left: 10%;" id="password" placeholder="Password*                    &#xf070">
+                <input type="text"  class=" form-control7" style="font-family: FontAwesome;position: relative;margin-top:5%;margin-left: 10%;" id="cpassword" placeholder="Confirm-Password*     &#xf070">
+                &nbsp;
+                <input style="position:relative;opacity:1;margin-left: 10%;margin-top:6%;display: inline-block;" type="checkbox" id="autoSizingCheck">
+                <h3 style="position:relative;opacity:1;margin-left:0%;margin-top:2%;display: inline-block;" class="form-check"> To create an Account,you'll need to agree</h3>
+                <h3 style="position:relative;opacity:1;margin-left:12%;margin-top:0%;display: inline-block;" class="form-check"> to the Hack-ov8</h3>
+                <a style="position: absolute;opacity:1;color:blue;display: inline-block;font-size: 12px;"class="link" href="#">Terms Of service</a>
+                &nbsp;
+                <button class="create-button" id="btncreate" style="position: relative;margin-top: 4%;margin-left: 10%;"> <span id="hoverit">Create Account </span></button>
+                &nbsp;
+                </div>
+                <div class="box3">
+                <button class="back-modal" style="position: relative;margin-left:70%;margin-top: 3%;">Back</button>
+                <img src="images/profile.png" style="position:relative;margin-top:16%;width: 83%;height:75%;">
+                <img src="images/rsz_logo.png" style="position: relative;width:40%;margin-top: 32%;" >
+                </div>			   
+            </div>
+        </div> 
+        <div class="logmodal" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+            <div class="logmodal-content">
+                <div class="box1">
+                <h2 class="logmodal-title" style="position: relative;margin-left: 13%;">Log In</h2>
+                <input type="text"  class=" form-control8" style="position: relative;margin-left: 13%;margin-top: 8%;" placeholder="Email Id*" height="300">
+                <input type="text" style="font-family: FontAwesome;position: relative;margin-left: 13%;margin-top: 7%; display: block;" class=" form-control9" placeholder="Password*                    &#xf070">
+                <input class="logcheck-box" type="checkbox" style="position: relative;margin-left: 13%;margin-top: 7%;display: inline;" id="autoSizingCheck" checked>
+                <h3 class="logform-check" style="position: relative;display: inline;margin-left: 3%;">Keep me signed in</h3>
+                <h4 class="logopen-modal1" style="position: relative;display: inline;margin-left: 6%;">Forgot Password?</h4>
+                <button class="create-button2" style="position: relative;margin-top:13%;margin-left: 13%;"> <span id="hoverit">Sign In</span></button>
+                <p>     </p>
+                <br>
+                <p>     </p>
+                <br>
+                <p>     </p>
+                </div>
+                <div class="box3">
+                <button class="logclose-modal" style="position: relative;margin-left: 90%;margin-top: 6%;"> x </button>
+                <img src="images/logp.png" style="position:relative;margin-top:13%;width: 55%;margin-left:15%;height: 40%;">
+                <img src="images/rsz_logo.png" style="position: relative;width:50%;margin-top:13%;" >
+                </div>
+            </div>
+        </div> 
+        <div class="logmodal1" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+            <div class="logmodal-content">
+                <div class="box1">
+                <h2 class="logmodal-title" style="position: relative;margin-left: 13%;">Enter Registered email</h2>
+                <input type="text" class=" form-control8" style="position: relative;margin-left: 13%;margin-top: 8%;" placeholder="Email Id*" height="300">
+                <button class="logopen-modal2" style="position: relative;margin-top:13%;margin-left: 13%;"> <span id="hoverit">Enter</span></button>
+                <p>     </p>
+                <br>
+                <p>     </p>
+                <br>
+                <p>     </p>
+                <br>
+                <p>     </p>
+                </div>
+                <div class="box3">
+                <button class="logclose-modal1" style="position: relative;margin-left: 90%;margin-top: 6%;"> x </button>
+                <img src="images/grp.png" style="position:relative;margin-top:13%;width: 55%;margin-left:15%;height: 40%;">
+                <img src="images/rsz_logo.png" style="position: relative;width:50%;margin-top:35%;" >
+                </div>
+			</div>
+        </div> 
+        <div class="logmodal2" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+            <div class="logmodal-content">
+                <div class="box1">
+                <h2 class="logmodal-title" style="position: relative;margin-left: 13%;">Reset Password</h2>
+                <input type="text" style="font-family: FontAwesome;position: relative;margin-left: 13%;margin-top: 8%;" class=" form-control8" placeholder="Password*                    &#xf070" height="300">
+                <input type="text" style="font-family: FontAwesome;position: relative;margin-left: 13%;margin-top: 7%;" class=" form-control9" placeholder="Confirm-Password*     &#xf070">
+                <button class="logopen-modal3" style="position: relative;margin-top:16%;margin-left: 13%;"> <span id="hoverit">Enter</span></button>
+                <p>     </p>
+                <br>
+                <p>     </p>
+                <br>
+                <p>     </p>
+                </div>
+                <div class="box3">
+                <button class="logback-modal" style="position: relative;margin-left: 70%;margin-top: 6%;"> Back </button>
+                <img src="images/grp.png" style="position:relative;margin-top:13%;width: 55%;margin-left:15%;height: 40%;">
+                <img src="images/rsz_logo.png" style="position: relative;width:50%;margin-top:35%;" >
+                </div>
+            </div>
+        </div> 
+        <div class="logmodal3" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+            <div class="logmodal-content">
+                <h1 class="logmodal3-title">Password successfully reset !</h1>
+                <div class="box1">
+                <h2 class="logmodal-title" style="position: relative;margin-left: 13%;">Log In</h2>
+                <input type="text"  class=" form-control8" style="position: relative;margin-left: 13%;margin-top: 8%;" placeholder="Email Id*" height="300">
+                <input type="text" style="font-family: FontAwesome;position: relative;margin-left: 13%;margin-top: 7%; display: block;" class=" form-control9" placeholder="Password*                    &#xf070">
+                <input class="logcheck-box" type="checkbox" style="position: relative;margin-left: 13%;margin-top: 7%;display: inline;" id="autoSizingCheck" checked>
+                <h3 class="logform-check" style="position: relative;display: inline;margin-left: 3%;">Keep me signed in</h3>
+                <h4 class="logopen-modal1" style="position: relative;display: inline;margin-left: 6%;">Forgot Password?</h4>
+                <button class="create-button2" style="position: relative;margin-top:13%;margin-left: 13%;"> <span id="hoverit">Sign In</span></button>
+                <p>     </p>
+                <br>
+                <p>     </p>
+                <br>
+                <p>     </p>
+                </div>
+                <div class="box3">
+                <button class="logclose-modal" style="position: relative;margin-left: 90%;margin-top: 6%;"> x </button>
+                <img src="images/logp.png" style="position:relative;margin-top:13%;width: 55%;margin-left:15%;height: 40%;">
+                <img src="images/rsz_logo.png" style="position: relative;width:50%;margin-top:6%;" >
+                </div>
+            </div>
+        </div>
+        <div class="search-button" id="sid">
+            <button  class="search" ><span id="hoverit">
+          <img class="searchj" src="images/search.png" width="25" height="23">
+        </span></button>
+      </div>
+      <div class="searchm" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
+          <h1 style="size:4px;text-align: center;font: normal normal bold 50px/94px  'Merriweather Sans', sans-serif ;letter-spacing: 0px;color: #FFFFFF;opacity: 1;position: absolute;top:160px;left: 280px;">What are you looking for?</h1>
+          <div class="smodal1-content">	
+              <button class="searchclose-modal"> x </button>		   
+           <input type="text" class="search-control"   aria-label="Search">
+           <img class="search2" src="images/search.png" width="35" height="32">
+            <h2  style="text-align: center;font: normal normal bold 25px/66px 'Merriweather Sans', sans-serif;letter-spacing: 0px;color: #000000;opacity: 1; position:absolute; top:100px; left:150px;"class="searches"> 
+               Suggested Searches </h2>
+          <button class="c-button"> C++ </button>
+          <button class="html"> HTML </button>
+          <button class="html2"> HTML </button>
+          <button class="html3"> HTML </button>
+          <img src="images/logo.png" class="search-logo" height ="160" width="150" > 
+          </div>
+      </div> 
+     <div class="notification-bar" id="nid">
+        <button id="myBtn"  class="notification " ><span id="hoverit">
+        <img src="images/notification.png" width="20" height="23">
+        </span></button>
+           <div id="myDropdown" class="dropdown-content">
+              <a href="#">
+              <p class="dropdown-content__notification" style="font-size: 22px; font-family:'Merriweather Sans', sans-serif;">Notification</p>
+              <a href="#">
+              <div>
+                  <p class="dropdown-content__message" style="font-size: 20px; font-family: 'Secular One', sans-serif; position:absolute;">Hackfest in 2 days</p>
+                  <p class="dropdown-content__meta">Time: 1:00pm</p>
+              </div> </a>  
+               <a class="dropdown-content__mark" href="#" style=" color:#7093ED; font-size:15px; font-family:'Open Sans Condensed', sans-serif;">Mark all as read</a> 
+               <a href="#">
+               <div>
+               <button class="dropdown-content__view-all" > Viewall </button>	
+              </div></a>
+           </div>			
+      </div>
+      <div class="person-profile" id="pid">
+          <img src="images/person.jpeg"   class="person" width="45" height="45"> 
+          <div class="dropdown pmd-dropdown pmd-user-info ml-auto" style=" outline:0px; position:absolute; top:40px; left:1270px;">
+          <a href="javascript:void(0);" class="btn-user dropdown-toggle media align-items-center" data-toggle="dropdown" data-sidebar="true" aria-expanded="false">
+          </a>
+          <ul class="dropdown-menu dropdown-menu-right"  role="menu">
+          <a class="dropdown-item" href="javascript:void(0);">Edit Profile</a>
+          <a class="dropdown-item" href="javascript:void(0);">Logout</a>
+          </ul>
+          </div>
+      </div> 
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction1()">&#9776;</a>
+    </div>
+	<!--<nav  class="navbar navbar-default" class="topnav" id="myTopnav">
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>   		 
+        <img src="images/logo.png" class="logo" class="active" height ="220" width="220" > 
 		<div class="register" id="registerid">
 			  <button  class="open-modal button button2" ><span id="hoverit">Register</span></button>
         </div>
@@ -172,8 +372,8 @@
             <a class="dropdown-item" href="javascript:void(0);">Logout</a>
             </ul>
             </div>
-        </div>    		 
-    </nav>
+        </div> 
+    </nav>-->
     </header>	
 	<section class="main-block">
         <div class="main-block-img">
@@ -211,7 +411,7 @@
             <div class="card" style="width:45%;height:45%;margin-top:1%;margin-left:50%;position:absolute;">
                 <img class="card-img-top" src="images/mountain.jpeg" alt="Card image" style="width:100%;height:100%;">
             </div>
-            <div class="card" style="width:95%;height:45%;margin-top:40%;position:absolute;">
+            <div class="card" style="width:95%;height:45%;margin-top:40%;position:relative;">
                 <img class="card-img-top" src="images/mountain.jpeg" alt="Card image" style="width:100%;height:100%">
             </div>
             </div>
@@ -229,19 +429,19 @@
         <span style="font-size:7vw;opacity: 1;position:absolute;margin-top:25%;">&#8249;</span>
         <span style="font-size:7vw;opacity: 1;position:absolute;margin-top:25%;margin-left:96%;">&#8250;</span>
             <h1 style="text-align:center;font: normal normal bold 37pt/42pt Noto Sans;letter-spacing:0pt;color: #3D3D3D;opacity:1;position:absolute;font-size:4vw;margin-top: 5%;margin-left:31%;">Upcoming hackathons</h1>
-            <div class="card" style="position:absolute;width:23%;height:65%;margin-top:16%;margin-left: 10%;">
+            <div class="card" style="position:relative;width:23%;height:65%;margin-top:16%;margin-left: 10%;">
                 <img class="card-img-top" src="images/mountain.jpeg" alt="Card image" style="width:100%;">
                 <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;font-size:4vw;">HackFest</h4>
                 <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;font-size:1.2vw;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="#" class="btn btn-primary" style="text-align:center;font:normal normal 600 16pt/22pt Noto Sans;letter-spacing: 0pt;color: #FCFCFC;opacity: 1;background: #3C3C3C 0% 0% no-repeat padding-box;opacity: 1;margin-left:30%;width:40%;height:10%;position:relative;font-size:1.5vw;">Register</a>
             </div>
-            <div class="card" style="position:absolute;width:23%;height:65%;margin-top:16%;margin-left: 40%;">
+            <div class="card" style="position:relative;width:23%;height:65%;margin-top:16%;margin-left:8%;">
                 <img class="card-img-top" src="images/mountain.jpeg" alt="Card image" style="width:100%;">
                 <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;font-size:4vw;">HackFest</h4>
                 <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;font-size:1.2vw;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="#" class="h-modal btn btn-primary" style="text-align:center;font:normal normal 600 16pt/22pt Noto Sans;letter-spacing: 0pt;color: #FCFCFC;opacity: 1;background: #3C3C3C 0% 0% no-repeat padding-box;opacity: 1;position:relative;margin-left:30%;width:40%;height:10%;font-size:1.5vw;">Register</a>
             </div>
-            <div class="card" style="position:absolute;width:23%;height:65%;margin-top:16%;margin-left: 70%;">
+            <div class="card" style="position:relative;width:23%;height:65%;margin-top:16%;margin-left: 8%;">
                 <img class="card-img-top" src="images/mountain.jpeg" alt="Card image" style="width:100%;">
                 <h4 class="card-title" style="text-align: center;font: normal normal bold 29pt/39pt Noto Sans;letter-spacing: 0pt;color: #3D3D3D;opacity:1;position:relative;font-size:4vw;">HackFest</h4>
                 <p class="card-text" style="text-align: center;font: normal normal medium 16pt/26pt Noto Sans;letter-spacing: 0pt;color: #000000;opacity: 1;position:relative;font-size:1.2vw;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -263,45 +463,55 @@
                 <button class="hback-modal">Back</button>
                 <button class="hopen-modal1 button button3"> <span id="hoverit">Register</span></button>
             </div>
-            <img src="images/logo.png" style="position: relative;top:368px;left:267px;" height ="140" width="110" >
+            <img src="images/rsz_logo.png" style="position: absolute;width:20%;left:36%;">
             </div> 
         </div>
         <div class="hmodal1" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
             <div class="hmodal1-content">
-                <button class="hclose-modal" style="position:relative;top:0px;left:550px;"> x </button>
-                <h2 class="modal-title" style="position:relative;text-align:left;font: normal normal bold 35px/43px Proxima Nova;letter-spacing: 0.42px;color: #1C2126;opacity: 1;top: 0px;">Personal Details</h2>
-                <button class="button4" style="position:absolute;;top:200px;left:450px;">1</button>
-                <button class="button5" style="position:absolute;;top:200px;left:500px;">2</button>					
-                <input type="text" style="position: absolute;top:230px;left:350px;opacity: 1;" class=" form-control" placeholder="Full Name*">
-                <input type="text" style="position: absolute;top:280px;left:350px;opacity: 1;" class=" form-control2" placeholder="Email Address*">
-                <input type="text" style="position: absolute;top:330px;left:350px;opacity: 1;" class=" form-control3" placeholder="Mobile Number*"> 
-                <input type="text" style="position: absolute;top:380px;left:350px;opacity: 1;" class=" form-control4" placeholder="City*">
-                <input type="text" style="position: absolute;top:380px;left:480px;opacity: 1;" class=" form-control5" placeholder="State*">
-                <button class="hopen-modal2 create-button" style="position: absolute;top:440px;left:360px;opacity: 1;"> <span id="hoverit">Next</span></button>
-                <img src="images/ha1.png" style="position: absolute;top:250px;left:700px;" height ="200" width="200" >
-                <img src="images/logo.png" style="position: relative;top:280px;left:230px;" height ="140" width="110" >
+                <div class="box1">
+                <h2 class="modal-title" style="position:relative;font: normal normal bold 35px/43px Proxima Nova;letter-spacing: 0.42px;color: #1C2126;opacity: 1;margin-left: 3%;">Personal Details</h2>
+                <button class="button4" style="position:relative;margin-left: 28%;margin-top:5.5%;">1</button>
+                <button class="button5" style="position:relative;margin-left:10%;">2</button>
+                <input type="text" style="position: relative;opacity: 1;margin-left:7%;margin-top: 6%;" class=" form-control" placeholder="Full Name*">
+                <input type="text" style="position: relative;opacity: 1;margin-left:7%;margin-top: 5%;" class=" form-control2" placeholder="Email Address*">
+                <input type="text" style="position: relative;opacity: 1;margin-left:7%;margin-top: 5%;" class=" form-control3" placeholder="Mobile Number*"> 
+                <input type="text" style="position: relative;margin-left:7%;margin-top: 5%;opacity: 1;" class=" form-control4" placeholder="City*">
+                <input type="text" style="position: relative;margin-left:4%;margin-top: 5%;opacity: 1;" class=" form-control5" placeholder="State*">
+                <button class="hopen-modal2 create-button" style="position:relative;display:block;margin-left:6%;margin-top:4%;opacity: 1;"> <span id="hoverit">Next</span></button>
+                &nbsp;&nbsp;
+                &nbsp;
+                </div>
+                <div class="box1">
+                <button class="hclose-modal" style="position:relative;width:10%;height:9%;margin-left:91%;"> x </button>
+                <img src="images/ha1.png" style="position:relative;margin-top:23%;">
+                <img src="images/rsz_logo.png" style="position: relative;width:50%;margin-top:20%;" >
+                </div>
             </div>
         </div>
         <div class="hmodal2" role="dialog"  aria-labelledby="Modal_Title" aria-describedby="Modal_Description" aria-hidden="true" style="display: none">
             <div class="hmodal1-content">
-                <button class="hback-modal1" style="position:relative;top:0px;left:510px;">Back</button>
-                <h2 class="modal-title" style="position:relative;text-align:left;font: normal normal bold 35px/43px Proxima Nova;letter-spacing: 0.42px;color: #1C2126;opacity: 1;top: 0px;">Booking Details</h2>
-                <button class="button5" style="position:absolute;;top:200px;left:450px;">1</button>
-                <button class="button4" style="position:absolute;;top:200px;left:500px;">2</button>
-                <p style="text-align:center;top:250px;left:365px;width: 78px;position:absolute;height:30px;text-align: left;font: normal normal bold 22px/30px Noto Sans;letter-spacing: 0px;color: #1C2126;opacity: 1;">Tickets*</p>
-                <div style="top:255px;left:540px;position:absolute;width:20px;height:20px;background-color: #E4E4E4;">-</div>
-                <div style="top:255px;left:560px;position:absolute;width:20px;height:20px;background-color:#28BBF6;">0</div>
-                <div style="top:255px;left:580px;position:absolute;width:20px;height:20px;background-color: #E4E4E4;">+</div>
-                <p style="font-family: FontAwesome;top:280px;left:560px;width: 78px;position:absolute;">&#x20B9 00</p>
-                <input type="text" style="position: absolute;top:300px;left:350px;opacity: 1;" class=" form-control2" placeholder="Team Members*">
-                <input type="text" style="position: absolute;top:350px;left:350px;opacity: 1;" class=" form-control3" placeholder="Team Name*"> 
-                <input style="position: absolute;top:430px;left:365px;opacity:1;" type="checkbox" id="autoSizingCheck">
-				<h3 style="position:absolute;top:430px;left:375px;opacity:1;" class="form-check"> To create an Account, you'll need to agree to the <br>
-					         Hack-ov8 </h3>
-				<a style="position: absolute;top:442px;left:445px;opacity:1;"class="link" href="#">Terms Of service</a>
-                <button class="hclose-modal1 create-button" style="position: absolute;top:470px;left:360px;opacity: 1;"> <span id="hoverit">Confirm Participation</span></button>
-                <img src="images/ha.png" style="position: absolute;top:200px;left:650px;" height ="320" width="250" >
-                <img src="images/logo.png" style="position: relative;top:280px;left:230px;" height ="140" width="110" >
+                <div class="box1">
+                <h2 class="modal-title" style="position:relative;text-align:left;font: normal normal bold 35px/43px Proxima Nova;letter-spacing: 0.42px;color: #1C2126;opacity: 1;margin-left: 5%;">Booking Details</h2>
+                <button class="button5" style="position:relative;margin-left: 21%;margin-top: 3%;">1</button>
+                <button class="button4" style="position:relative;margin-left: 23%;">2</button>
+                <p style="display:inline-block;position:relative;height:20%;margin-top:5%;margin-left:9%;font: normal normal bold 22px/30px Noto Sans;letter-spacing: 0px;color: #1C2126;opacity: 1;">Tickets*</p>
+                <div style="display:inline-block;position:relative;width:10%;height:20%;margin-left:19%;background-color:#E4E4E4;">-</div>
+                <div style="display:inline-block;position:relative;width:10%;height:20%;margin-left:0%;background-color:#28BBF6;">0</div>
+                <div style="display:inline-block;position:relative;width:10%;height:20%;margin-left:0%;background-color: #E4E4E4;">+</div>
+                <p style="font-family: FontAwesome;margin-left:70%;position:reltive;">&#x20B9 00</p>
+                <input type="text" style="position: relative;opacity: 1;margin-left: 10%;" class=" form-control2" placeholder="Team Members*">
+                <input type="text" style="position: relative;opacity: 1;margin-left: 10%;margin-top:5%;" class=" form-control3" placeholder="Team Name*"> 
+                <input style="position:relative;opacity:1;margin-left: 10%;margin-top:6%;display: inline-block;" type="checkbox" id="autoSizingCheck">
+                <h3 style="position:relative;opacity:1;margin-left:0%;margin-top:2%;display: inline-block;" class="form-check"> To create an Account,you'll need to agree</h3>
+                <h3 style="position:relative;opacity:1;margin-left:12%;margin-top:0%;display: inline-block;" class="form-check"> to the Hack-ov8</h3>
+                <a style="position: relative;opacity:1;"class="link" href="#">Terms Of service</a>
+                <button class="hclose-modal1 create-button" style="position: relative;opacity: 1;margin-left: 10%;margin-top:7%;"> <span id="hoverit">Confirm Participation</span></button>
+                </div>
+                <div class="box1">
+                <button class="hback-modal1" style="position:relative;margin-left:70%;">Back</button>
+                <img src="images/ha.png" style="position:relative;margin-top:2%;">
+                <img src="images/rsz_logo.png" style="position: relative;width:50%;margin-top:2%;" >
+                </div>                
             </div>
         </div>
         </div>
@@ -409,7 +619,7 @@
 	<footer>
         <div class="f-img">
 		<img src="images/rsz_script-logo.png" style="position: relative; width:14%;height:50%;margin-top:3%;" class="script-logo" >
-        <h2 class="script" > Script Foundation</h2>
+        <h2 class="script" > Script&nbsp;Foundation</h2>
         <div class="f-box">
             <a href="#" class="fa fa-facebook" style="position: absolute;color:white;margin-top:5%;margin-left:3%;"></a>
 		    <a href="#" class="fa fa-twitter"style="position:absolute;color:white;margin-top:11%;margin-left:3%;"></a>
