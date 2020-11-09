@@ -1,5 +1,6 @@
 import React from "react";
 import "./page1.css";
+import {Link} from 'react-router-dom';
 
 export default function Page1() {
         return (
@@ -9,7 +10,9 @@ export default function Page1() {
                         <img className="profile" src="assets/images/profile.svg" alt="dashboard"></img>
                         <div className="name1">Organizer</div>
                         <div className="shadow">Ongoing Events</div>
-                        <div className="name2">Add Events</div>
+                        <Link to='/page2' style={{ textDecoration: 'none' }}>
+                            <div className="name2">Add Events</div>
+                        </Link>
                         <div className="name2">Utilities</div>
                         <div className="name2">Settings</div>
                         <img className="accounting" src="assets/images/accounting.svg" alt="dashboard"></img>
@@ -44,13 +47,17 @@ export default function Page1() {
                             <div className="block4">Mode: Online Offline</div>
                             <div className="hacktext">Lorem ipsum dolor sit amet , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                             <div className="block5">
-                                <div className="text1">Stats  &#62;&#62;</div>
-                                <div className="text2">View Participants  &#62;&#62;</div>
-                                <div className="text2">Add Manager  &#62;&#62;</div>
+                                <div className="text1">Stats&#62;&#62;&nbsp; &nbsp; &nbsp;</div>
+                                <Link to='/page3' style={{ textDecoration: 'none' }}>
+                                    <div className="text2">View&nbsp;Participants&#62;&#62;</div>
+                                </Link>
+                                <div className="text2">Add Manager&#62;&#62;</div>
                                 <div className="last">Update</div>
                             </div>
                         </div>
-                        <img className="add" src="assets/images/add.svg" alt="dashboard"></img>
+                        <Link to='/page2'>
+                            <img className="add" src="assets/images/add.svg" alt="dashboard"></img>
+                        </Link>
                         <div className="addtext">Add New Event</div>
                     </div>
                 </div>

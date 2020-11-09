@@ -26,8 +26,8 @@ img{
     margin-bottom: 7%;
 }
 .shadow{
-    background-color: rgb(6, 6, 43);
-    padding: 1rem;
+    background-color: #06062b;
+    padding-left: 1rem;
     font-size: 1.8vw;
     color: white;
     border-radius: 1em;
@@ -62,7 +62,6 @@ img{
     height:3%;
     margin-left: 90%;
     margin-top: 2.5%;
-    margin-bottom: 5rem;
 }
 .logoutext{
     color: black;
@@ -76,6 +75,7 @@ img{
     height: 30%;
     border-radius: 2rem;
     box-shadow: 0px 0px 2px 2px black;
+    margin-top: 6rem;
     margin-left: 22%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -84,81 +84,3 @@ h1{
     text-decoration: underline;
     margin-left: 2%;
 }
-.hacktext{
-    font-size: 1.4vw;
-    margin-bottom: 1rem;
-    margin-left: 1.6%;
-    margin-top: 1rem;
-    font-weight: 500;
-}
-.block2{
-    display: flex;
-    flex-direction: row;
-}
-.block3{
-    display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
-}
-.b1{
-    font-size: 1.3vw;
-    margin-left: 6%;
-    margin-bottom:0.5rem ;
-    font-weight: 900;
-}
-.b2{
-    font-size: 1.3vw;
-    margin-left: 6%;
-}
-.start{
-    width: 50%;
-}
-.end{
-    width: 50%;
-    margin-left: 48%;
-}
-.block4{
-    margin-left: 1.6%;
-    margin-top: 1rem;
-    word-spacing: 30px;
-}
-.block5{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-}   
-.text1{
-    font-size: 1.4vw;
-    color: rgb(17, 84, 116);
-}
-.text2{
-    font-size: 1.4vw;
-    color: rgb(17, 84, 116);
-    margin-left: 8%;
-}
-.last{
-    width: 22%;
-    background-color: rgb(6, 6, 43);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 1.5vw;
-    color: white;
-    border-radius: 1em;
-    margin-left: 23%;
-    text-align: center;
-}
-.add{
-    width: 7%;
-    height: 7%;
-    margin-left: 55%;
-    margin-top: 2rem;
-}
-.addtext{
-    margin-left: 54%;
-    margin-top: 1rem;
-    font-size: 1.3vw;
-    color: gray;
-    margin-bottom: 4rem;
-}
-
