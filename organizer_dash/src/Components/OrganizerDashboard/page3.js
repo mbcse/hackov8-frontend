@@ -19,8 +19,11 @@ export default function Page3() {
                 </div>
                 <div className="aside">
                     <div className="block1">
-                        <img className="logout" src="assets/images/notification.svg" alt="dashboard"></img>
-                        <div className="logoutext">Logout</div>
+                        <Link to="/" style={{ textDecoration: 'none' }}>
+                            <div className="back">&#60;&#60;Back</div>
+                        </Link>
+                        <img className="logout3" src="assets/images/notification.svg" alt="dashboard"></img>
+                        <div className="logoutext3">Logout</div>
                     </div>
                     <div className="block2">
                         <div className="one">Participations</div>
