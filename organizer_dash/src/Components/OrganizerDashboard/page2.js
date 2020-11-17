@@ -13,7 +13,9 @@ export default function Page2() {
                         <div className="name2">Ongoing Events</div>
                     </Link>
                     <div className="shadow">Add Events</div>
-                    <div className="name2">Utilities</div>
+                    <Link to='/page4' style={{ textDecoration: 'none' }}>
+                        <div className="name2">Utilities</div>
+                    </Link>
                     <div className="name2">Settings</div>
                     <img className="accounting" src="assets/images/accounting.svg" alt="dashboard"></img>
                 </div>
@@ -56,7 +58,7 @@ export default function Page2() {
                                 <img className="calendar" src="assets/images/calendar.svg" alt="dashboard"></img>
                             </div>
                         </div>
-                        <div className="date2l">
+                        <div className="date2">
                             <div className="date11">Live End Date</div>
                             <div className="im">
                                 <div className="date22"></div>

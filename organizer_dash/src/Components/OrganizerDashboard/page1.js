@@ -13,7 +13,9 @@ export default function Page1() {
                         <Link to='/page2' style={{ textDecoration: 'none' }}>
                             <div className="name2">Add Events</div>
                         </Link>
-                        <div className="name2">Utilities</div>
+                        <Link to='/page4' style={{ textDecoration: 'none' }}>
+                            <div className="name2">Utilities</div>
+                        </Link>
                         <div className="name2">Settings</div>
                         <img className="accounting" src="assets/images/accounting.svg" alt="dashboard"></img>
                     </div>
@@ -47,11 +49,13 @@ export default function Page1() {
                             <div className="block4">Mode: Online Offline</div>
                             <div className="hacktext">Lorem ipsum dolor sit amet , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                             <div className="block5">
-                                <div className="text1">Stats&#62;&#62;&nbsp; &nbsp; &nbsp;</div>
+                                <div className="text1">Stats&#62;&#62;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
                                 <Link to='/page3' style={{ textDecoration: 'none' }}>
-                                    <div className="text2">View&nbsp;Participants&#62;&#62;</div>
+                                    <div className="text2">View&nbsp;Participants&#62;&#62;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
                                 </Link>
-                                <div className="text2">Add Manager&#62;&#62;</div>
+                                <Link to='/page5' style={{ textDecoration: 'none' }}>
+                                    <div className="text2">Add&nbsp;Manager&#62;&#62;</div>
+                                </Link>
                                 <div className="last">Update</div>
                             </div>
                         </div>

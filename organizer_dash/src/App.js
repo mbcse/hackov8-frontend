@@ -4,6 +4,8 @@ import './App.css';
 import Page1 from './Components/OrganizerDashboard/page1';
 import Page2 from './Components/OrganizerDashboard/page2';
 import Page3 from './Components/OrganizerDashboard/page3';
+import Page4 from './Components/OrganizerDashboard/page4';
+import Page5 from './Components/OrganizerDashboard/page5';
 
 class App extends Component {
   render() {
@@ -13,6 +15,8 @@ class App extends Component {
         <Route exact path="/" component={Page1}/>
         <Route path="/page2" component={Page2}/>
         <Route path="/page3" component={Page3}/>
+        <Route path="/page4" component={Page4}/>
+        <Route path="/page5" component={Page5}/>
       </Switch>
     </BrowserRouter>
   );

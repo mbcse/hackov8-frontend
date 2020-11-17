@@ -13,7 +13,9 @@ export default function Page3() {
                     <Link to="/page2" style={{ textDecoration: 'none' }}>
                         <div className="name2">Add Events</div>
                     </Link>
-                    <div className="name2">Utilities</div>
+                    <Link to='/page4' style={{ textDecoration: 'none' }}>
+                        <div className="name2">Utilities</div>
+                    </Link>
                     <div className="name2">Settings</div>
                     <img className="accounting" src="assets/images/accounting.svg" alt="dashboard"></img>
                 </div>
@@ -27,7 +29,7 @@ export default function Page3() {
                     </div>
                     <div className="block2">
                         <div className="one">Participations</div>
-                        <div className="two shadow">Get CSV File</div>
+                        <div className="two shadow1">Get CSV File</div>
                     </div> 
                     <div className="hackathon">
                         <h1>Hackathon 1.0</h1>

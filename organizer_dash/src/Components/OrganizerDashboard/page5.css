@@ -28,7 +28,7 @@ img{
 .shadow{
     background-color: rgb(6, 6, 43);
     padding: 1rem;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     color: white;
     border-radius: 1em;
     margin-left: 2%;
@@ -82,19 +82,9 @@ img{
 }
 .one{
     margin-left: 23.5%;
-    font-size: 1.9vw;
+    font-size: 2vw;
     color: gray;
     margin-top: 1%;
-}
-.two{
-    margin-left: 51%;
-}
-.shadow1{
-    background-color: rgb(6, 6, 43);
-    padding: 1rem;
-    font-size: 1.5vw;
-    color: white;
-    border-radius: 1em;
 }
 .hackathon{
     background-color: white;
@@ -112,54 +102,16 @@ h1{
     text-decoration: underline;
     margin-left: 2%;
 }
-.block3{
-    display: flex;
-    flex-direction: row;
-}
-.three{
-    color: black;
-    font-size: 1.3vw;
-    font-weight: 500;
-    margin-left: 3%;
-    margin-bottom: 1rem;
-}
-.three1{
-    color: black;
-    font-size: 1.3vw;
-    font-weight: 500;
-    margin-left: 20%;
-    margin-bottom: 1rem;
-}
-.main{
-    margin-bottom: 1rem;
-}
-.block4{
-    display: flex;
-    flex-direction: row;
-}
-.box1{
-    background-color: white;
-    border-radius: 1rem;
-    width: 10%;
-    height: 11em;
-    box-shadow: 0px 0px 2px 2px black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.box2{
-    background-color: white;
-    border-radius: 1rem;
-    width: 29%;
-    height: 11em;
-    margin-left: 2%;
-    box-shadow: 0px 0px 2px 2px black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.box3{
-    background-color: white;
-    border-radius: 1rem;
-    width: 23%;
-    height: 11em;
-    margin-left: 2%;
-    box-shadow: 0px 0px 2px 2px black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.addman{
+    width: 22%;
+    background-color: rgb(6, 6, 43);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5vw;
+    color: white;
+    border-radius: 1em;
+    margin-top: 10%;
+    margin-left: 73%;
+    margin-bottom: 2%;
+    text-align: center;
 }
