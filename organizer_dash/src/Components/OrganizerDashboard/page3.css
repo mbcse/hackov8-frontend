@@ -1,169 +1,169 @@
-.container1{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    background-image: url('./bg.jpeg') repeat-x ;
-    background-size: 100% 100%;
-    object-fit: cover;
+.container1 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-image: url("./bg.jpeg") repeat-x;
+  background-size: 100% 100%;
+  object-fit: cover;
 }
-.sidebar{
-    width: 20%;
-    height: 100%;
-    position: fixed;
-    background-color: rgb(78, 9, 117);
-    border-top-right-radius:1.2em ;
-    border-bottom-right-radius: 1.2em;
-    box-shadow: 10px 0 8px #888888;
+.sidebar {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(78, 9, 117);
+  border-top-right-radius: 1.2em;
+  border-bottom-right-radius: 1.2em;
+  box-shadow: 10px 0 8px #888888;
 }
-img{
-    display: block;
+img {
+  display: block;
 }
-.profile{
-    width: 30%;
-    height: 30%;
-    margin-left: 30%;
+.profile {
+  width: 30%;
+  height: 30%;
+  margin-left: 30%;
 }
-.name1{
-    font-size:1.2vw;
-    color: white;
-    margin-left: 31%;
-    margin-bottom: 7%;
+.name1 {
+  font-size: 1.2vw;
+  color: white;
+  margin-left: 31%;
+  margin-bottom: 7%;
 }
-.shadow{
-    background-color: rgb(6, 6, 43);
-    padding: 1rem;
-    font-size: 1.5vw;
-    color: white;
-    border-radius: 1em;
-    margin-left: 2%;
-    margin-bottom: 1rem;
-    margin-right: 2%;
+.shadow {
+  background-color: rgb(6, 6, 43);
+  padding: 1rem;
+  font-size: 1.5vw;
+  color: white;
+  border-radius: 1em;
+  margin-left: 2%;
+  margin-bottom: 1rem;
+  margin-right: 2%;
 }
-.name2{
-    font-size: 2vw;
-    color: white;
-    margin-bottom: 1rem;
-    margin-left: 17%;
+.name2 {
+  font-size: 2vw;
+  color: white;
+  margin-bottom: 1rem;
+  margin-left: 17%;
 }
-.accounting{
-    width: 50%;
-    height: 50%;
-    margin-left: 20%;
+.accounting {
+  width: 50%;
+  height: 50%;
+  margin-left: 20%;
 }
-.aside{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+.aside {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
-.block1{
-    display: flex;
-    flex-direction: row;
+.block1 {
+  display: flex;
+  flex-direction: row;
 }
-.back{
-    color: blue;
-    font-size: 2vw;
-    margin-left: 12em;
-    margin-top: 9.5%;
+.back {
+  color: blue;
+  font-size: 2vw;
+  margin-left: 12em;
+  margin-top: 9.5%;
 }
-.logout3{
-    width:3%;
-    height:3%;
-    margin-left: 57%;
-    margin-top: 2.5%;
-    margin-bottom: 5%;
+.logout3 {
+  width: 3%;
+  height: 3%;
+  margin-left: 57%;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
 }
-.logoutext3{
-    color: black;
-    margin-top: 2.8%;
-    margin-left: 0.3rem;
-    font-size: 1.5vw;
+.logoutext3 {
+  color: black;
+  margin-top: 2.8%;
+  margin-left: 0.3rem;
+  font-size: 1.5vw;
 }
-.block2{
-    display: flex;
-    flex-direction: row;
+.block2 {
+  display: flex;
+  flex-direction: row;
 }
-.one{
-    margin-left: 23.5%;
-    font-size: 1.9vw;
-    color: gray;
-    margin-top: 1%;
+.one {
+  margin-left: 23.5%;
+  font-size: 1.9vw;
+  color: gray;
+  margin-top: 1%;
 }
-.two{
-    margin-left: 51%;
+.two {
+  margin-left: 51%;
 }
-.shadow1{
-    background-color: rgb(6, 6, 43);
-    padding: 1rem;
-    font-size: 1.5vw;
-    color: white;
-    border-radius: 1em;
+.shadow1 {
+  background-color: rgb(6, 6, 43);
+  padding: 1rem;
+  font-size: 1.5vw;
+  color: white;
+  border-radius: 1em;
 }
-.hackathon{
-    background-color: white;
-    width: 77%;
-    height: 30%;
-    border-radius: 2rem;
-    box-shadow: 0px 0px 2px 2px black;
-    margin-top: 0.5rem;
-    margin-left: 22%;
-    margin-bottom: 1%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.hackathon {
+  background-color: white;
+  width: 77%;
+  height: 30%;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 2px 2px black;
+  margin-top: 0.5rem;
+  margin-left: 22%;
+  margin-bottom: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-h1{
-    font-size: 2.5vw;
-    text-decoration: underline;
-    margin-left: 2%;
+h1 {
+  font-size: 2.5vw;
+  text-decoration: underline;
+  margin-left: 2%;
 }
-.block3{
-    display: flex;
-    flex-direction: row;
+.block3 {
+  display: flex;
+  flex-direction: row;
 }
-.three{
-    color: black;
-    font-size: 1.3vw;
-    font-weight: 500;
-    margin-left: 3%;
-    margin-bottom: 1rem;
+.three {
+  color: black;
+  font-size: 1.3vw;
+  font-weight: 500;
+  margin-left: 3%;
+  margin-bottom: 1rem;
 }
-.three1{
-    color: black;
-    font-size: 1.3vw;
-    font-weight: 500;
-    margin-left: 20%;
-    margin-bottom: 1rem;
+.three1 {
+  color: black;
+  font-size: 1.3vw;
+  font-weight: 500;
+  margin-left: 20%;
+  margin-bottom: 1rem;
 }
-.main{
-    margin-bottom: 1rem;
+.main {
+  margin-bottom: 1rem;
 }
-.block4{
-    display: flex;
-    flex-direction: row;
+.block4 {
+  display: flex;
+  flex-direction: row;
 }
-.box1{
-    background-color: white;
-    border-radius: 1rem;
-    width: 10%;
-    height: 11em;
-    box-shadow: 0px 0px 2px 2px black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.box1 {
+  background-color: white;
+  border-radius: 1rem;
+  width: 10%;
+  height: 11em;
+  box-shadow: 0px 0px 2px 2px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.box2{
-    background-color: white;
-    border-radius: 1rem;
-    width: 29%;
-    height: 11em;
-    margin-left: 2%;
-    box-shadow: 0px 0px 2px 2px black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.box2 {
+  background-color: white;
+  border-radius: 1rem;
+  width: 29%;
+  height: 11em;
+  margin-left: 2%;
+  box-shadow: 0px 0px 2px 2px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.box3{
-    background-color: white;
-    border-radius: 1rem;
-    width: 23%;
-    height: 11em;
-    margin-left: 2%;
-    box-shadow: 0px 0px 2px 2px black;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.box3 {
+  background-color: white;
+  border-radius: 1rem;
+  width: 23%;
+  height: 11em;
+  margin-left: 2%;
+  box-shadow: 0px 0px 2px 2px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

@@ -87,7 +87,7 @@ img {
   font-size: 1.9vw;
   color: gray;
 }
-.s{
+.s {
   display: flex;
   flex-direction: row;
 }
@@ -103,7 +103,7 @@ img {
   margin-bottom: 1%;
   text-align: center;
 }
-.stat11{
+.stat11 {
   display: flex;
   flex-direction: column;
   width: 25%;
@@ -115,11 +115,11 @@ img {
   margin-bottom: 1%;
   text-align: center;
 }
-.stext{
+.stext {
   font-size: 2vw;
   color: blue;
 }
-.stat2{
+.stat2 {
   display: flex;
   flex-direction: row;
   width: 50%;

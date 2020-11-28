@@ -53,26 +53,38 @@ export default function Page5() {
             <h1>Hackathon 1.0</h1>
             <h2>1. Manager 1 manager@xyz.com</h2>
             <h2>2. Manager 2 manager@xyz.com</h2>
-            <div className="addman" onClick={handleShow} style={{cursor:'pointer'}}>Add New</div>
+            <div
+              className="addman"
+              onClick={handleShow}
+              style={{ cursor: "pointer" }}
+            >
+              Add New
+            </div>
             <>
-              <Modal show={show} onHide={handleClose} animation={false} className="mymodal" overlayClassName="myoverlay">
+              <Modal
+                show={show}
+                onHide={handleClose}
+                animation={false}
+                className="mymodal"
+                overlayClassName="myoverlay"
+              >
                 <Modal.Header closeButton>
                   <Modal.Title>Add Manager</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                <form>
-                <label>
-                  <p>Name:</p>
-                  <input type="text" name="name" />
-                </label>
-                <label>
-                  <p>E-mail</p>
-                  <input type="text" name="email" />
-                </label>
-              </form>
+                  <form>
+                    <label>
+                      <p>Name:</p>
+                      <input type="text" name="name" />
+                    </label>
+                    <label>
+                      <p>E-mail</p>
+                      <input type="text" name="email" />
+                    </label>
+                  </form>
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button variant="primary" onClick={handleClose} >
+                  <Button variant="primary" onClick={handleClose}>
                     Add
                   </Button>
                 </Modal.Footer>

@@ -1,168 +1,191 @@
-.container1{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
-    background-image: url('./bg.jpeg') ;
-    background-size: 100% 100%;
-    object-fit: cover;
+.container1 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-image: url("./bg.jpeg");
+  background-size: 100% 100%;
+  object-fit: cover;
 }
-.sidebar{
-    width: 20%;
-    height: 100%;
-    position: fixed;
-    background-color: rgb(78, 9, 117);
-    border-top-right-radius:1.2em ;
-    border-bottom-right-radius: 1.2em;
-    box-shadow: 10px 0 8px #888888;
+.sidebar {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(78, 9, 117);
+  border-top-right-radius: 1.2em;
+  border-bottom-right-radius: 1.2em;
+  box-shadow: 10px 0 8px #888888;
 }
-img{
-    display: block;
+img {
+  display: block;
 }
-.profile{
-    width: 30%;
-    height: 30%;
-    margin-left: 30%;
+.profile {
+  width: 30%;
+  height: 30%;
+  margin-left: 30%;
 }
-.name1{
-    font-size:1.2vw;
-    color: white;
-    margin-left: 31%;
-    margin-bottom: 7%;
+.name1 {
+  font-size: 1.2vw;
+  color: white;
+  margin-left: 31%;
+  margin-bottom: 7%;
 }
-.shadow{
-    background-color: rgb(6, 6, 43);
-    padding: 1rem;
-    font-size: 1.8vw;
-    color: white;
-    border-radius: 1em;
-    margin-left: 2%;
-    margin-bottom: 1rem;
-    margin-right: 2%;
+.shadow {
+  background-color: rgb(6, 6, 43);
+  padding: 1rem;
+  font-size: 1.8vw;
+  color: white;
+  border-radius: 1em;
+  margin-left: 2%;
+  margin-bottom: 1rem;
+  margin-right: 2%;
 }
-.name2{
-    font-size: 2vw;
-    color: white;
-    margin-bottom: 1rem;
-    margin-left: 17%;
+.name2 {
+  font-size: 2vw;
+  color: white;
+  margin-bottom: 1rem;
+  margin-left: 17%;
 }
-.accounting{
-    width: 50%;
-    height: 50%;
-    margin-left: 20%;
+.accounting {
+  width: 50%;
+  height: 50%;
+  margin-left: 20%;
 }
-.aside{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+.aside {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
-.block1{
-    display: flex;
-    flex-direction: row;
+.block1 {
+  display: flex;
+  flex-direction: row;
 }
-.logout{
-    width:3%;
-    height:3%;
-    margin-left: 90%;
-    margin-top: 2.5%;
-    margin-bottom: 5rem;
+.logout {
+  width: 3%;
+  height: 3%;
+  margin-left: 90%;
+  margin-top: 2.5%;
+  margin-bottom: 5rem;
 }
-.logoutext{
-    color: black;
-    margin-top: 2.8%;
-    margin-left: 0.3rem;
-    font-size: 1.5vw;
+.logoutext {
+  color: black;
+  margin-top: 2.8%;
+  margin-left: 0.3rem;
+  font-size: 1.5vw;
 }
-.hackathon{
-    background-color: white;
-    width: 77%;
-    height: 30%;
-    border-radius: 2rem;
-    box-shadow: 0px 0px 2px 2px black;
-    margin-left: 22%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.hackathon {
+  padding-top: 1rem;
+  background-color: white;
+  width: 77%;
+  height: 30%;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 2px 2px black;
+  margin-left: 22%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-h1{
-    font-size: 2.5vw;
-    text-decoration: underline;
-    margin-left: 2%;
+.t {
+  display: flex;
+  flex-direction: row;
 }
-.hacktext{
-    font-size: 1.4vw;
-    margin-bottom: 1rem;
-    margin-left: 1.6%;
-    margin-top: 1rem;
-    font-weight: 500;
+h1 {
+  font-size: 2vw;
+  text-decoration: underline;
+  margin-left: 2%;
 }
-.block2{
-    display: flex;
-    flex-direction: row;
+.t1 {
+  color: red;
+  font-size: 1.3vw;
+  font-weight: bold;
+  margin-top: 1%;
+  margin-left: 3%;
 }
-.block3{
-    display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
+.publish {
+  width: 18%;
+  background-color: rgb(185, 79, 40);
+  padding-top: 0.3rem;
+  height: 6vh;
+  font-size: 1.5vw;
+  color: white;
+  border-radius: 1em;
+  margin-right: 2%;
+  text-align: center;
+  margin-left: 3%;
 }
-.b1{
-    font-size: 1.3vw;
-    margin-left: 6%;
-    margin-bottom:0.5rem ;
-    font-weight: 900;
+.hacktext {
+  font-size: 1.4vw;
+  margin-bottom: 1rem;
+  margin-left: 1.6%;
+  margin-top: 1rem;
+  font-weight: 500;
 }
-.b2{
-    font-size: 1.3vw;
-    margin-left: 6%;
+.block2 {
+  display: flex;
+  flex-direction: row;
 }
-.start{
-    width: 50%;
+.block3 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
 }
-.end{
-    width: 50%;
-    margin-left: 48%;
+.b1 {
+  font-size: 1.3vw;
+  margin-left: 6%;
+  margin-bottom: 0.5rem;
+  font-weight: 900;
 }
-.block4{
-    margin-left: 1.6%;
-    margin-top: 1rem;
-    word-spacing: 30px;
+.b2 {
+  font-size: 1.3vw;
+  margin-left: 6%;
 }
-.block5{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-}   
-.text1{
-    font-size: 1.4vw;
-    color: rgb(17, 84, 116);
+.start {
+  width: 50%;
 }
-.text2{
-    font-size: 1.4vw;
-    color: rgb(17, 84, 116);
-    margin-left: 8%;
+.end {
+  width: 50%;
+  margin-left: 48%;
 }
-.last{
-    width: 300%;
-    background-color: rgb(6, 6, 43);
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 1.5vw;
-    color: white;
-    border-radius: 1em;
-    margin-left:333%;
-    text-align: center;
+.block4 {
+  margin-left: 1.6%;
+  margin-top: 1rem;
+  word-spacing: 30px;
 }
-.add{
-    width: 7%;
-    height: 7%;
-    margin-left: 55%;
-    margin-top: 2rem;
+.block5 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
 }
-.addtext{
-    margin-left: 54%;
-    margin-top: 1rem;
-    font-size: 1.3vw;
-    color: gray;
-    margin-bottom: 4rem;
+.text1 {
+  font-size: 1.4vw;
+  color: rgb(17, 84, 116);
 }
-
+.text2 {
+  font-size: 1.4vw;
+  color: rgb(17, 84, 116);
+  margin-left: 8%;
+}
+.last {
+  width: 300%;
+  background-color: rgb(6, 6, 43);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.5vw;
+  color: white;
+  border-radius: 1em;
+  margin-left: 433%;
+  text-align: center;
+}
+.add {
+  width: 7%;
+  height: 7%;
+  margin-left: 55%;
+  margin-top: 2rem;
+}
+.addtext {
+  margin-left: 54%;
+  margin-top: 1rem;
+  font-size: 1.3vw;
+  color: gray;
+  margin-bottom: 4rem;
+}

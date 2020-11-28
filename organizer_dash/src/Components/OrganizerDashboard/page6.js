@@ -98,21 +98,21 @@ export default function Page6() {
           </div>
           <div className="heading">Statistics</div>
           <div className="s">
-          <div className="stat1">
-            <div className="stext">Stage&nbsp;1</div>
-            <Doughnut data={data} />
-            <div className="stext">Submissions</div>
-          </div>
-          <div className="stat11">
-            <div className="stext">Stage&nbsp;1</div>
-            <Doughnut data={data} />
-            <div className="stext">Submissions</div>
-          </div>
-          <div className="stat11">
-            <div className="stext">Stage&nbsp;1</div>
-            <Doughnut data={data} />
-            <div className="stext">Submissions</div>
-          </div>
+            <div className="stat1">
+              <div className="stext">Stage&nbsp;1</div>
+              <Doughnut data={data} />
+              <div className="stext">Submissions</div>
+            </div>
+            <div className="stat11">
+              <div className="stext">Stage&nbsp;1</div>
+              <Doughnut data={data} />
+              <div className="stext">Submissions</div>
+            </div>
+            <div className="stat11">
+              <div className="stext">Stage&nbsp;1</div>
+              <Doughnut data={data} />
+              <div className="stext">Submissions</div>
+            </div>
           </div>
           <div className="stat2">
             <Line
