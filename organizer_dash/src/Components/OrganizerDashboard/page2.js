@@ -1,8 +1,9 @@
 import React from 'react'
 import "./page2.css";
 import { Link } from 'react-router-dom';
+import Page1 from './page1';
 
-export default function Page2() {
+export default function Page2(){
     return (
         <div>
             <div className="container1">
@@ -16,7 +17,9 @@ export default function Page2() {
                     <Link to='/page4' style={{ textDecoration: 'none' }}>
                         <div className="name2">Utilities</div>
                     </Link>
-                    <div className="name2">Settings</div>
+                    <Link to='/settings' style={{ textDecoration: 'none' }}>
+                        <div className="name2">Settings</div>
+                    </Link>
                     <img className="accounting" src="assets/images/accounting.svg" alt="dashboard"></img>
                 </div>
             <div className="aside">
@@ -26,7 +29,7 @@ export default function Page2() {
                 </div>
                 <div className="block2">
                     <div className="box">Information</div>
-                    <div className="boxone">Criteria</div>
+                    <div className="boxone" >Criteria</div>
                     <div className="boxone">Mode</div>
                     <div className="boxone">Stages</div>
                     <div className="boxone">FAQ's</div> 
@@ -38,7 +41,7 @@ export default function Page2() {
                         <div className="date1">
                             <div className="date11">Application Start Date</div>
                             <div className="im">
-                                <div className="date22"></div>
+                                <input type="text" className="date22"/>
                                 <img className="calendar" src="assets/images/calendar.svg" alt="dashboard"></img>
                             </div>
                         </div>

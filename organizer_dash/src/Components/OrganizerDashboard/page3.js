@@ -2,7 +2,7 @@ import React from 'react'
 import "./page3.css";
 import { Link } from 'react-router-dom';
 
-export default function Page3() {
+export default function Page3(){
     return (
         <div>
             <div className="container1">
@@ -16,7 +16,9 @@ export default function Page3() {
                     <Link to='/page4' style={{ textDecoration: 'none' }}>
                         <div className="name2">Utilities</div>
                     </Link>
-                    <div className="name2">Settings</div>
+                    <Link to='/settings' style={{ textDecoration: 'none' }}>
+                        <div className="name2">Settings</div>
+                    </Link>
                     <img className="accounting" src="assets/images/accounting.svg" alt="dashboard"></img>
                 </div>
                 <div className="aside">
@@ -65,3 +67,4 @@ export default function Page3() {
         </div>
     )
 }
+

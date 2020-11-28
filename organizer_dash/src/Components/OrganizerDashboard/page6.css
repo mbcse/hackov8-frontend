@@ -1,0 +1,133 @@
+.container1 {
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(78, 9, 117);
+  border-top-right-radius: 1.2em;
+  border-bottom-right-radius: 1.2em;
+  box-shadow: 10px 0 8px #888888;
+}
+img {
+  display: block;
+}
+.profile {
+  width: 30%;
+  height: 30%;
+  margin-left: 30%;
+}
+.name1 {
+  font-size: 1.2vw;
+  color: white;
+  margin-left: 31%;
+  margin-bottom: 7%;
+}
+.shadow {
+  background-color: rgb(6, 6, 43);
+  padding: 1rem;
+  font-size: 1.8vw;
+  color: white;
+  border-radius: 1em;
+  margin-left: 2%;
+  margin-bottom: 1rem;
+  margin-right: 2%;
+}
+.name2 {
+  font-size: 2vw;
+  color: white;
+  margin-bottom: 1rem;
+  margin-left: 17%;
+}
+.accounting {
+  width: 50%;
+  height: 50%;
+  margin-left: 20%;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.block1 {
+  display: flex;
+  flex-direction: row;
+}
+.back {
+  color: blue;
+  font-size: 2vw;
+  margin-left: 12em;
+  margin-top: 9.5%;
+}
+.h {
+  font-size: 2vw;
+  text-decoration: underline;
+  margin-left: 17%;
+  margin-top: 2.5%;
+}
+.logout4 {
+  width: 3%;
+  height: 3%;
+  margin-left: 25%;
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+}
+.logoutext4 {
+  color: black;
+  margin-top: 2.8%;
+  margin-left: 0.3rem;
+  font-size: 1.5vw;
+}
+.heading {
+  margin-left: 23.5%;
+  font-size: 1.9vw;
+  color: gray;
+}
+.s{
+  display: flex;
+  flex-direction: row;
+}
+.stat1 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 55%;
+  margin-left: 22%;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 2px 2px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 1%;
+  text-align: center;
+}
+.stat11{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 55%;
+  margin-left: 1%;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 2px 2px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 1%;
+  text-align: center;
+}
+.stext{
+  font-size: 2vw;
+  color: blue;
+}
+.stat2{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 20%;
+  margin-left: 22%;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 2px 2px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2%;
+  margin-bottom: 1%;
+}

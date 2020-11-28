@@ -6,6 +6,8 @@ import Page2 from './Components/OrganizerDashboard/page2';
 import Page3 from './Components/OrganizerDashboard/page3';
 import Page4 from './Components/OrganizerDashboard/page4';
 import Page5 from './Components/OrganizerDashboard/page5';
+import Page6 from './Components/OrganizerDashboard/page6';
+import Settings from './Components/OrganizerDashboard/settings';
 
 class App extends Component {
   render() {
@@ -17,6 +19,8 @@ class App extends Component {
         <Route path="/page3" component={Page3}/>
         <Route path="/page4" component={Page4}/>
         <Route path="/page5" component={Page5}/>
+        <Route path="/page6" component={Page6}/>
+        <Route path="/settings" component={Settings}/>
       </Switch>
     </BrowserRouter>
   );

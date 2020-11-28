@@ -2,7 +2,7 @@ import React from "react";
 import "./page1.css";
 import {Link} from 'react-router-dom';
 
-export default function Page1() {
+export default function Page1(){
         return (
             <div>
                 <div className="container1">
@@ -16,7 +16,9 @@ export default function Page1() {
                         <Link to='/page4' style={{ textDecoration: 'none' }}>
                             <div className="name2">Utilities</div>
                         </Link>
-                        <div className="name2">Settings</div>
+                        <Link to='/settings' style={{ textDecoration: 'none' }}>
+                            <div className="name2">Settings</div>
+                        </Link>
                         <img className="accounting" src="assets/images/accounting.svg" alt="dashboard"></img>
                     </div>
                     <div className="aside">
@@ -49,14 +51,18 @@ export default function Page1() {
                             <div className="block4">Mode: Online Offline</div>
                             <div className="hacktext">Lorem ipsum dolor sit amet , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                             <div className="block5">
-                                <div className="text1">Stats&#62;&#62;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+                                <Link to='/page6' style={{ textDecoration: 'none' }}>
+                                    <div className="text1">Stats&#62;&#62;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+                                </Link>
                                 <Link to='/page3' style={{ textDecoration: 'none' }}>
                                     <div className="text2">View&nbsp;Participants&#62;&#62;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
                                 </Link>
                                 <Link to='/page5' style={{ textDecoration: 'none' }}>
                                     <div className="text2">Add&nbsp;Manager&#62;&#62;</div>
                                 </Link>
-                                <div className="last">Update</div>
+                                <Link to='/page2' style={{ color: 'inherit', textDecoration: 'inherit'}}>
+                                    <div className="last">Update</div>
+                                </Link>
                             </div>
                         </div>
                         <Link to='/page2'>
@@ -68,4 +74,3 @@ export default function Page1() {
             </div>     
         );
 }
-
