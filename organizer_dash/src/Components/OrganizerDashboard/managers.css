@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   height: 100%;
-  background-image: url("./bg.jpeg") repeat-x;
+  background-image: url("./../res/images/bg.jpeg") repeat-x;
   background-size: 100% 100%;
   object-fit: cover;
 }
@@ -61,53 +61,70 @@ img {
   display: flex;
   flex-direction: row;
 }
-.logout {
+.back {
+  color: blue;
+  font-size: 2vw;
+  margin-left: 12em;
+  margin-top: 9.5%;
+}
+.logout3 {
   width: 3%;
   height: 3%;
-  margin-left: 90%;
+  margin-left: 57%;
   margin-top: 2.5%;
-  margin-bottom: 5rem;
+  margin-bottom: 5%;
 }
-.logoutext {
+.logoutext3 {
   color: black;
   margin-top: 2.8%;
   margin-left: 0.3rem;
   font-size: 1.5vw;
 }
-.u1 {
+.block2 {
   display: flex;
   flex-direction: row;
 }
-.email {
-  margin-left: 25%;
-  margin-top: 8%;
-  width: 10%;
-  height: 10%;
-  border-radius: 2rem;
-  box-shadow: 0px 0px 2px 2px black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 2%;
-  margin-bottom: 1%;
+.one {
+  margin-left: 23.5%;
+  font-size: 2vw;
+  color: gray;
+  margin-top: 1%;
 }
-.whatsapp {
-  margin-left: 5%;
-  margin-top: 8%;
-  width: 10%;
-  height: 10%;
+.hackathon {
+  background-color: white;
+  width: 77%;
+  height: 30%;
   border-radius: 2rem;
   box-shadow: 0px 0px 2px 2px black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 2%;
+  margin-top: 0.5rem;
+  margin-left: 22%;
   margin-bottom: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.businessmen {
-  margin-left: 5%;
-  margin-top: 8%;
-  width: 10%;
-  height: 10%;
-  border-radius: 2rem;
-  box-shadow: 0px 0px 2px 2px black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 2%;
-  margin-bottom: 1%;
+h1 {
+  font-size: 2.5vw;
+  text-decoration: underline;
+  margin-left: 2%;
+}
+.addman {
+  width: 22%;
+  background-color: rgb(6, 6, 43);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.5vw;
+  color: white;
+  border-radius: 1em;
+  margin-top: 10%;
+  margin-left: 73%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.mymodal .modal-content {
+  width: 80%;
+  margin-top: 40%;
+  margin-left: 9%;
+  height: 100%;
+  border-radius: 20px;
+  border: 5px;
 }

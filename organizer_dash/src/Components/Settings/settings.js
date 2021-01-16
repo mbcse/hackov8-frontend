@@ -27,10 +27,10 @@ export default function Settings() {
           <Link to="/" style={{ textDecoration: "none" }}>
             <div className="name2">Ongoing Events</div>
           </Link>
-          <Link to="/page2" style={{ textDecoration: "none" }}>
+          <Link to="/add_event" style={{ textDecoration: "none" }}>
             <div className="name2">Add Events</div>
           </Link>
-          <Link to="/page4" style={{ textDecoration: "none" }}>
+          <Link to="/utilities" style={{ textDecoration: "none" }}>
             <div className="name2">Utilities</div>
           </Link>
           <div className="shadow">Settings</div>

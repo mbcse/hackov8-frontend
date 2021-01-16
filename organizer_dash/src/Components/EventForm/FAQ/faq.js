@@ -1,11 +1,11 @@
-import React from "react";
-import "./mode.css";
+import React from 'react';
+import "./faq.css";
 import { Link } from "react-router-dom";
 
-export default function Mode() {
-  return (
-    <div>
-      <div className="container1">
+export default function Faq() {
+    return (
+        <div>
+        <div className="container1">
         <div className="sidebar">
           <img
             className="profile"
@@ -17,7 +17,7 @@ export default function Mode() {
             <div className="name2">Ongoing Events</div>
           </Link>
           <div className="shadow">Add Events</div>
-          <Link to="/page4" style={{ textDecoration: "none" }}>
+          <Link to="/utilities" style={{ textDecoration: "none" }}>
             <div className="name2">Utilities</div>
           </Link>
           <Link to="/settings" style={{ textDecoration: "none" }}>
@@ -30,6 +30,6 @@ export default function Mode() {
           ></img>
         </div>
       </div>
-    </div>
-  );
+        </div>
+    )
 }

@@ -1,0 +1,52 @@
+.container1 {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-image: url("./../../res/images/bg.jpeg");
+  background-size: 100% 100%;
+  object-fit: cover;
+}
+.sidebar {
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background-color: rgb(78, 9, 117);
+  border-top-right-radius: 1.2em;
+  border-bottom-right-radius: 1.2em;
+  box-shadow: 10px 0 8px #888888;
+}
+img {
+  display: block;
+}
+.profile {
+  width: 30%;
+  height: 30%;
+  margin-left: 30%;
+}
+.name1 {
+  font-size: 1.2vw;
+  color: white;
+  margin-left: 31%;
+  margin-bottom: 7%;
+}
+.shadow {
+  background-color: rgb(6, 6, 43);
+  padding: 1rem;
+  font-size: 1.8vw;
+  color: white;
+  border-radius: 1em;
+  margin-left: 2%;
+  margin-bottom: 1rem;
+  margin-right: 2%;
+}
+.name2 {
+  font-size: 2vw;
+  color: white;
+  margin-bottom: 1rem;
+  margin-left: 17%;
+}
+.accounting {
+  width: 50%;
+  height: 50%;
+  margin-left: 20%;
+}

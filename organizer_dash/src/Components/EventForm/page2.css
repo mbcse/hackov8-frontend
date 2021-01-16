@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   height: 100%;
-  background-image: url("./bg.jpeg") repeat-x;
+  background-image: url("./../res/images/bg.jpeg") repeat-x;
   background-size: 100% 100%;
   object-fit: cover;
 }
@@ -74,6 +74,7 @@ img {
   font-size: 1.5vw;
 }
 .block2 {
+  margin-left: 22.5%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -89,17 +90,16 @@ img {
   margin-bottom: 1%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.box {
-  width: 19%;
-  border-radius: 2rem;
-  border-color: black;
+.active-box {
+  width: 180%;
+  font-size: 1.9vw;
+  color: black;
   box-shadow: 0px 0px 2px 2px black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  font-size: 1.9vw;
-  margin-left: 22.5%;
-  margin-bottom: 2%;
-  background-color: blue;
+  border-radius: 1em;
   text-align: center;
+  margin-right: 8%;
+  background-color: blue;
 }
 .boxone {
   width: 180%;
@@ -250,3 +250,57 @@ h2 {
   text-align: center;
   float: right;
 }
+
+.option {
+  display: inline-flex;
+  position: relative;
+  font-size: x-large;
+  height: 12.5%;
+  width: 50%;
+  padding-left: 35px;
+  margin-bottom: 12px;
+}
+
+.option input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #cbe2ff;
+}
+
+.option:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.option input:checked ~ .checkmark {
+  background-color: #cbe2ff;
+}
+
+.option input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.option .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* .option input {
+  background-color: #cbe2ff;
+  margin: 1ch;
+} */

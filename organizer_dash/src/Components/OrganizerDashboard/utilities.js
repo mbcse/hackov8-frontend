@@ -1,8 +1,8 @@
 import React from "react";
-import "./page4.css";
+import "./utilities.css";
 import { Link } from "react-router-dom";
 
-export default function Page4() {
+export default function Utilities() {
   return (
     <div>
       <div className="container1">
@@ -16,10 +16,10 @@ export default function Page4() {
           <Link to="/" style={{ textDecoration: "none" }}>
             <div className="name2">Ongoing Events</div>
           </Link>
-          <Link to="/page2" style={{ textDecoration: "none" }}>
+          <Link to="/add_event" style={{ textDecoration: "none" }}>
             <div className="name2">Add Events</div>
           </Link>
-          <Link to="/page4" style={{ textDecoration: "none" }}>
+          <Link to="/utilities" style={{ textDecoration: "none" }}>
             <div className="shadow">Utilities</div>
           </Link>
           <Link to="/settings" style={{ textDecoration: "none" }}>

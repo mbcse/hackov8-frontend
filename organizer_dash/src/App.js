@@ -2,16 +2,16 @@ import React, { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Page1 from "./Components/OrganizerDashboard/page1";
-import Page2 from "./Components/OrganizerDashboard/page2";
-import Page3 from "./Components/OrganizerDashboard/page3";
-import Page4 from "./Components/OrganizerDashboard/page4";
-import Page5 from "./Components/OrganizerDashboard/page5";
-import Page6 from "./Components/OrganizerDashboard/page6";
-import Settings from "./Components/OrganizerDashboard/settings";
-import Stage from "./Components/OrganizerDashboard/stage";
-import Mode from "./Components/OrganizerDashboard/mode";
-import Criteria from "./Components/OrganizerDashboard/criteria";
-import Faq from "./Components/OrganizerDashboard/faq";
+import Page2 from "./Components/EventForm/page2";
+import Participants from "./Components/OrganizerDashboard/participants";
+import Utilities from "./Components/OrganizerDashboard/utilities";
+import Managers from "./Components/OrganizerDashboard/managers";
+import Stats from "./Components/OrganizerDashboard/Stats";
+import Settings from "./Components/Settings/settings";
+import Stage from "./Components/EventForm/Stage/stage";
+import Mode from "./Components/EventForm/Mode/mode";
+import Criteria from "./Components/EventForm/Criteria/criteria";
+import Faq from "./Components/EventForm/FAQ/faq";
 
 class App extends Component {
   render() {
@@ -19,11 +19,11 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Page1} />
-          <Route path="/page2" component={Page2} />
-          <Route path="/page3" component={Page3} />
-          <Route path="/page4" component={Page4} />
-          <Route path="/page5" component={Page5} />
-          <Route path="/page6" component={Page6} />
+          <Route path="/add_event" component={Page2} />
+          <Route path="/participants" component={Participants} />
+          <Route path="/utilities" component={Utilities} />
+          <Route path="/managers" component={Managers} />
+          <Route path="/stats" component={Stats} />
           <Route path="/settings" component={Settings} />
           <Route path="/stage" component={Stage} />
           <Route path="/mode" component={Mode} />

@@ -1,8 +1,8 @@
 import React from "react";
-import "./page3.css";
+import "./participants.css";
 import { Link } from "react-router-dom";
 
-export default function Page3() {
+export default function Participants() {
   return (
     <div>
       <div className="container1">
@@ -14,10 +14,10 @@ export default function Page3() {
           ></img>
           <div className="name1">Organizer</div>
           <div className="shadow">Ongoing Events</div>
-          <Link to="/page2" style={{ textDecoration: "none" }}>
+          <Link to="/add_event" style={{ textDecoration: "none" }}>
             <div className="name2">Add Events</div>
           </Link>
-          <Link to="/page4" style={{ textDecoration: "none" }}>
+          <Link to="/utilities" style={{ textDecoration: "none" }}>
             <div className="name2">Utilities</div>
           </Link>
           <Link to="/settings" style={{ textDecoration: "none" }}>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./page6.css";
+import "./stats.css";
 import { Link } from "react-router-dom";
 import { Doughnut } from "react-chartjs-2";
 import { Line } from "react-chartjs-2";
@@ -56,7 +56,7 @@ Chart.helpers.extend(Chart.controllers.doughnut.prototype, {
   },
 });
 
-export default function Page6() {
+export default function Stats() {
   return (
     <div>
       <div className="container1">
@@ -68,10 +68,10 @@ export default function Page6() {
           ></img>
           <div className="name1">Organizer</div>
           <div className="shadow">Ongoing Events</div>
-          <Link to="/page2" style={{ textDecoration: "none" }}>
+          <Link to="/add_event" style={{ textDecoration: "none" }}>
             <div className="name2">Add Events</div>
           </Link>
-          <Link to="/page4" style={{ textDecoration: "none" }}>
+          <Link to="/utilities" style={{ textDecoration: "none" }}>
             <div className="name2">Utilities</div>
           </Link>
           <Link to="/settings" style={{ textDecoration: "none" }}>

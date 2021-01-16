@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   height: 100%;
-  background-image: url("./bg.jpeg") repeat-x;
+  background-image: url("./../res/images/bg.jpeg") repeat-x;
   background-size: 100% 100%;
   object-fit: cover;
 }
@@ -74,10 +74,40 @@ img {
   margin-left: 0.3rem;
   font-size: 1.5vw;
 }
-h4 {
-  font-style: oblique;
-  font-size: 1.5vw;
-  margin-left: 23%;
-  margin-bottom: 0.5rem;
-  font-weight: 900;
+.u1 {
+  display: flex;
+  flex-direction: row;
+}
+.email {
+  margin-left: 25%;
+  margin-top: 8%;
+  width: 10%;
+  height: 10%;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 2px 2px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2%;
+  margin-bottom: 1%;
+}
+.whatsapp {
+  margin-left: 5%;
+  margin-top: 8%;
+  width: 10%;
+  height: 10%;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 2px 2px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2%;
+  margin-bottom: 1%;
+}
+.businessmen {
+  margin-left: 5%;
+  margin-top: 8%;
+  width: 10%;
+  height: 10%;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 2px 2px black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2%;
+  margin-bottom: 1%;
 }

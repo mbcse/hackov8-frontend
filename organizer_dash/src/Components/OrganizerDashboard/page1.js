@@ -15,10 +15,10 @@ export default function Page1() {
           ></img>
           <div className="name1">Organizer</div>
           <div className="shadow">Ongoing Events</div>
-          <Link to="/page2" style={{ textDecoration: "none" }}>
+          <Link to="/add_event" style={{ textDecoration: "none" }}>
             <div className="name2">Add Events</div>
           </Link>
-          <Link to="/page4" style={{ textDecoration: "none" }}>
+          <Link to="/utilities" style={{ textDecoration: "none" }}>
             <div className="name2">Utilities</div>
           </Link>
           <Link to="/settings" style={{ textDecoration: "none" }}>
@@ -73,29 +73,29 @@ export default function Page1() {
               nisi ut aliquip ex ea commodo consequat.
             </div>
             <div className="block5">
-              <Link to="/page6" style={{ textDecoration: "none" }}>
+              <Link to="/stats" style={{ textDecoration: "none" }}>
                 <div className="text1">
                   Stats&#62;&#62;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 </div>
               </Link>
-              <Link to="/page3" style={{ textDecoration: "none" }}>
+              <Link to="/participants" style={{ textDecoration: "none" }}>
                 <div className="text2">
                   View&nbsp;Participants&#62;&#62;&nbsp; &nbsp; &nbsp; &nbsp;
                   &nbsp; &nbsp; &nbsp; &nbsp;
                 </div>
               </Link>
-              <Link to="/page5" style={{ textDecoration: "none" }}>
+              <Link to="/managers" style={{ textDecoration: "none" }}>
                 <div className="text2">Add&nbsp;Manager&#62;&#62;</div>
               </Link>
               <Link
-                to="/page2"
+                to="/add_event"
                 style={{ color: "inherit", textDecoration: "inherit" }}
               >
                 <div className="last">Update</div>
               </Link>
             </div>
           </div>
-          <Link to="/page2">
+          <Link to="/add_event">
             <img
               className="add"
               src="assets/images/add.svg"

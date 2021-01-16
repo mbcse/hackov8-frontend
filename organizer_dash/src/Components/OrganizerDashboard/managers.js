@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./page5.css";
+import "./managers.css";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import { Modal } from "react-bootstrap";
 
-export default function Page5() {
+export default function Managers() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -19,10 +19,10 @@ export default function Page5() {
           ></img>
           <div className="name1">Organizer</div>
           <div className="shadow">Ongoing Events</div>
-          <Link to="/page2" style={{ textDecoration: "none" }}>
+          <Link to="/add_event" style={{ textDecoration: "none" }}>
             <div className="name2">Add Events</div>
           </Link>
-          <Link to="/page4" style={{ textDecoration: "none" }}>
+          <Link to="/utilities" style={{ textDecoration: "none" }}>
             <div className="name2">Utilities</div>
           </Link>
           <Link to="/settings" style={{ textDecoration: "none" }}>
